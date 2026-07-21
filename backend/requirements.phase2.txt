@@ -1,0 +1,23 @@
+# Phase 2 — ingestion, embeddings, graph, LLM
+# Install AFTER Phase 1 is working.
+# Some packages may need --pre or a Python <=3.12 venv if wheels are unavailable.
+#
+# Recommended: create a separate venv with Python 3.12 for this:
+#   python3.12 -m venv venv312 && source venv312/bin/activate
+#   pip install -r requirements.phase2.txt
+
+anthropic>=0.28.0
+networkx>=3.3
+pandas>=2.2.0
+numpy>=1.26.0
+httpx>=0.27.0
+
+# Vector store — choose ONE:
+# Option A: ChromaDB local (needs Python <=3.12 for current wheels)
+chromadb>=0.5.0
+
+# Option B: pure-Python fallback (works on any Python version)
+# scipy>=1.13.0   # for cosine similarity via SQLite approach
+
+# Embeddings (needs Python <=3.12)
+sentence-transformers>=3.0.0
