@@ -1,0 +1,41 @@
+DOCUMENT ID: LGP-PTW-004
+TYPE: Permit to Work
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+ASSET: Brine Chiller Unit CHR-01 (serving ST-09, ST-10, ST-11)
+PERMIT NUMBER: PTW-2020-0189
+DATE ISSUED: 2020-01-14
+VALID UNTIL: 2020-01-16
+WORK DESCRIPTION: Replacement of chiller compressor drive belt and
+                   coolant pump seal inspection.
+ISSUING AUTHORITY: Safety Officer M. Pillai
+PERFORMING CONTRACTOR: ArtiCool Services (work order: AC-20-0044)
+
+--- SCOPE OF WORK ---
+1. Isolate CHR-01 from 230V electrical supply.
+2. Remove and replace drive belt (Part No. CHR-DB-002, OEM spec).
+3. Inspect coolant pump mechanical seal; replace if seepage >2 mL/hr.
+4. Recommission and verify flow rate >15 m³/h on all three tank loops.
+
+PRECONDITIONS:
+- Styrene tank temperatures must be ≤18°C before chiller shutdown begins.
+- Maximum chiller downtime: 24 hours.
+- Emergency backup: portable air-cooled chillers (stored in Warehouse B) to
+  be mobilised if work extends beyond 18 hours.
+
+SIGN-OFF RECORD:
+[ ✓] Pre-work safety briefing completed: 2020-01-14 08:00
+[ ✓] Electrical isolation confirmed: LOTO tag #L-089 applied
+[ ✓] Work completed: 2020-01-16 11:30
+[ ✓] Recommissioning flow test: 18.2 m³/h — PASS
+
+CLOSURE NOTE (M. Pillai):
+"Pump seal found worn; replaced with OEM part. Recommend seal inspection at
+next scheduled PM (April 2020). CHR-01 operating normally at closure."
+
+POST-CLOSURE OBSERVATION (handwritten, initialled P.R.):
+"Flow sensor FT-11 on ST-11 loop reading erratic. May need recalibration.
+ Logged to instrument workshop — no date assigned."
+
+--- END OF PERMIT ---
+
+KNOWN PATTERN FLAG: YES — Pattern: DEFERRED_MAINTENANCE (FT-11 sensor not recalibrated)

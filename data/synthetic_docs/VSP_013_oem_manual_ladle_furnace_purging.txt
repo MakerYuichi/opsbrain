@@ -1,0 +1,49 @@
+DOCUMENT ID: VSP-OEM-013
+TYPE: OEM Manual Excerpt
+SOURCE: SteelTec LF-3000 Ladle Furnace System — Operations Manual
+REVISION: Rev. F (2021)
+SECTION: 7.4 — Argon Purging Procedure and Safety Requirements
+PAGES: 112–118
+APPLICABLE ASSET: Ladle Furnace LF-3, Steel Melt Shop SMS-1
+
+--- EXCERPT ---
+
+7.4.1 Purpose of Argon Purging
+Argon purging (also termed argon stirring or bottom blowing) serves three
+essential metallurgical functions:
+  (a) Temperature homogenisation: eliminates stratified hot and cold zones
+      within the melt, reducing localised thermal stress on the ladle refractory.
+  (b) Chemical homogenisation: ensures uniform alloy and inclusion distribution;
+      promotes desulphurisation and removal of dissolved hydrogen.
+  (c) Gas pocket elimination: displaces trapped hydrogen, nitrogen, and residual
+      argon pockets from the liquid steel bath. Failure to eliminate such pockets
+      creates risk of sudden volumetric gas expansion if mechanical agitation
+      (e.g., ladle rotation, tilt, or slide gate opening) disturbs the pocket
+      at a later stage.
+
+CRITICAL WARNING:
+If a ladle furnace heat is processed without argon purging, the ladle MUST
+NOT be transferred to casting without a mandatory additional holding period
+of minimum 15 minutes at temperature under slag cover, followed by a manual
+confirmation from the furnace coordinator that surface activity (boiling/
+turbulence) is absent. This check MUST be recorded.
+
+Failure to observe this precaution risks a Type-3 explosion event: rapid
+gas pocket expansion during ladle rotation or slide-gate activation at the
+casting platform, with risk of ladle tipover and catastrophic hot metal spill.
+
+7.4.2 Minimum Purging Parameters
+  — Duration: 15–25 minutes (grade-dependent; refer Appendix B)
+  — Flow rate: 20–35 NL/min (set via FCV-APS controller)
+  — Lance insertion depth: 800mm ± 50mm from ladle base
+
+7.4.3 Equipment Defect Escalation
+If the argon purge system (lance, FCV controller, or gas supply) is found
+defective during a heat sequence, the defect MUST be escalated to the SMS
+Superintendent immediately. Heat processing without purging is permitted
+ONLY with written Superintendent sign-off and only for a single heat.
+Recurring deferrals are NOT permitted without a formal risk assessment.
+
+--- END OF EXCERPT ---
+
+KNOWN PATTERN FLAG: NO (reference document)

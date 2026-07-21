@@ -1,0 +1,44 @@
+DOCUMENT ID: LGP-SHIFT-007
+TYPE: Shift Log
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+SHIFT: Night (23:00–07:00)
+DATE: 2020-05-06 (Night) → 2020-05-07 (Morning)
+GUARD ON DUTY: A. Suresh (Security ID: SEC-09)
+NOTE: Plant scheduled to partially restart next week; crew returning.
+
+--- HOURLY ROUNDS LOG ---
+
+23:00 — Normal handover from evening guard. No anomalies reported.
+01:45 — Internal walkthrough, Tank Farm Area.
+         STRONG pungent/sweet odour detected near ST-11.
+         Guard A. Suresh: checked visible vent — no visible plume.
+         Smell described as "like paint thinner, makes eyes water."
+         Guard called to supervisor phone: NO ANSWER (supervisor not on site).
+         Emergency contact list on wall last updated 2019 — phone numbers
+         for on-call engineer disconnected.
+         Guard decided to continue rounds, noted odour in logbook.
+02:00 — Guard re-entered tank farm: odour significantly stronger.
+         Eyes watering, light-headedness reported. Guard exited area.
+         Did not activate plant-wide alarm (guard unaware of location).
+02:30 — Vapour cloud visible rolling out from ST-11 secondary containment bund.
+         Guard called 100 (police). Did not call 101 (fire).
+         By this time, vapour already migrating to adjacent residential colony.
+         Plant PA system not activated.
+03:10 — Fire brigade arrival. Evacuation of surrounding area begins.
+         On-call plant manager reachable at ~03:45.
+
+--- INSTRUMENT PANEL (06:00 retrospective reading) ---
+
+All displayed: FAULT, FAULT, FAULT, FAULT — panel power cut at 02:40 due to
+vapour encroachment.
+
+REMARKS:
+Post-incident review established that ST-11 temperature had likely reached
+≥60°C prior to vent opening, based on rate-of-reaction modelling.
+The odour noted at 01:45 was consistent with early-stage styrene vapour
+release through the pressure-relief vent, approximately 45 minutes before
+the major release.
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: YES — Pattern: SHIFT_HANDOVER_BLINDNESS + FAILED_ALARM_RESPONSE

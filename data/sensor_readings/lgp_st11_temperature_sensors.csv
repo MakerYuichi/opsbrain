@@ -1,0 +1,16 @@
+timestamp,asset_id,sensor_id,sensor_type,value,unit,status,facility,notes
+2020-03-18T10:00:00,ST-11,RTD-11,temperature,16.4,degC,OK,Horizon_Chemicals,Normal operation; inhibitor dosed today
+2020-03-18T14:00:00,ST-11,RTD-11,temperature,16.1,degC,OK,Horizon_Chemicals,
+2020-03-20T08:00:00,ST-11,RTD-11,temperature,16.8,degC,OK,Horizon_Chemicals,
+2020-03-23T09:00:00,ST-11,RTD-11,temperature,17.2,degC,OK,Horizon_Chemicals,Shutdown day; pre-shutdown checklist initiated
+2020-03-24T00:00:00,ST-11,RTD-11,temperature,17.5,degC,OK,Horizon_Chemicals,Plant shutdown; chiller still running
+2020-03-27T03:00:00,ST-11,RTD-11,temperature,FAULT,,FAULT,Horizon_Chemicals,RTD-11 display failure; FT-11 also FAULT
+2020-03-27T07:00:00,ST-11,FT-11,flow_chiller_circuit,FAULT,,FAULT,Horizon_Chemicals,Chiller flow sensor unresponsive
+2020-04-03T09:00:00,ST-11,RTD-11,temperature,FAULT,,FAULT,Horizon_Chemicals,Fault persists; no technician available
+2020-04-10T09:00:00,ST-11,RTD-11,temperature,FAULT,,FAULT,Horizon_Chemicals,
+2020-04-19T10:00:00,ST-11,IRIR-PORTABLE,temperature_infrared,30.5,degC,MANUAL_READ,Horizon_Chemicals,Portable IR; shell reading +2-4 degC offset; estimated liquid ~26-28degC
+2020-04-26T10:00:00,ST-11,IRIR-PORTABLE,temperature_infrared,33.2,degC,MANUAL_READ,Horizon_Chemicals,Estimated liquid ~29-31degC; above 20degC limit; no action taken
+2020-05-03T10:00:00,ST-11,IRIR-PORTABLE,temperature_infrared,37.8,degC,MANUAL_READ,Horizon_Chemicals,Estimated liquid ~34-36degC; approaching auto-polymerisation risk zone
+2020-05-06T22:00:00,ST-11,IRIR-PORTABLE,temperature_infrared,46.1,degC,MANUAL_READ,Horizon_Chemicals,Last manual reading before incident; estimated liquid ~42-44degC
+2020-05-07T01:45:00,ST-11,SENSOR-OFFLINE,temperature,FAULT,,FAULT,Horizon_Chemicals,Guard notes pungent odour; no sensor reading available
+2020-05-07T02:30:00,ST-11,SENSOR-OFFLINE,temperature,FAULT,,FAULT,Horizon_Chemicals,Major vapour release begins; estimated tank temp >60degC at this point

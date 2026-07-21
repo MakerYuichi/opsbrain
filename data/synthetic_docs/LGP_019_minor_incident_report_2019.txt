@@ -1,0 +1,45 @@
+DOCUMENT ID: LGP-INCIDENT-019
+TYPE: Minor Incident Report
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+DATE: 2019-07-14
+REPORTED BY: Shift Engineer D. Prasad
+INCIDENT CATEGORY: Near-Miss / Instrumentation Failure
+SEVERITY: Low (no injury, no release)
+
+--- DESCRIPTION ---
+
+At 14:45, during routine tank farm walkthrough, Shift Engineer D. Prasad
+noticed that the temperature display for Tank ST-11 on the main control panel
+was reading 27.3°C — above the acceptable limit of 20°C.
+
+This reading was later determined to be a TRUE reading (not a sensor fault)
+corresponding to a chiller system partial flow restriction (brine strainer
+partially blocked). Once the strainer was cleaned and chiller flow restored,
+ST-11 temperature returned to 18.2°C within 4 hours.
+
+HOWEVER: The temperature alarm (setpoint 18°C warning, 25°C critical) had NOT
+triggered despite the 27.3°C reading. Investigation found the alarm relay
+contacts corroded. Temperature had apparently been above 20°C for an estimated
+8–12 hours prior to being noticed visually by the engineer.
+
+CORRECTIVE ACTIONS TAKEN:
+1. Brine strainer cleaned. [DONE, 2019-07-14]
+2. Alarm relay replaced. [DONE, 2019-07-16]
+3. Recommended: add second independent high-temp alarm on ST-11. [NOT DONE —
+   deferred per site engineer response: "one alarm should be sufficient."]
+4. Recommended: monthly alarm function test for all tank farm instruments.
+   [NOT DONE — no procedure created, no schedule set.]
+
+RISK REGISTER ENTRY: Not made (incident classified as low-severity near-miss;
+process engineer decided risk register entry not warranted).
+
+ROOT CAUSE STATEMENT: "Partial chiller blockage caused transient temperature
+exceedance. Corrected. No recurrence expected."
+
+REMARKS: No cross-reference made to Finding 1.2 in the 2019 DISH audit
+(FT-11 flow sensor anomaly on same tank) — these two separate anomaly records
+on the same critical asset were never connected.
+
+--- END OF INCIDENT REPORT ---
+
+KNOWN PATTERN FLAG: YES — Pattern: MISSING_INSTRUMENTATION + DISCONNECTED_INCIDENT_RECORDS

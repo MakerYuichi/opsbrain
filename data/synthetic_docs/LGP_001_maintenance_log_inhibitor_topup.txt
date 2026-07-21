@@ -1,0 +1,31 @@
+DOCUMENT ID: LGP-MAINT-001
+TYPE: Maintenance Log
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+ASSET: Styrene Storage Tank ST-11 (capacity: 2,400 kL)
+DATE: 2020-03-18
+SHIFT: Day (07:00–15:00)
+TECHNICIAN: R. Venkataraman (MT-04)
+SUPERVISOR: K. Srinivas
+
+--- LOG ENTRY ---
+
+Routine inhibitor top-up performed on Tank ST-11.
+TBC (Tertiary Butyl Catechol) solution added: 120 litres @ 50 ppm concentration.
+Tank temperature at time of dosing: 16.4°C (within acceptable range ≤20°C).
+Cooling brine circulation confirmed operational; flow rate 18 m³/h.
+Dissolved oxygen level sampled from top tap: 6.2 ppm (acceptable).
+
+NEXT SCHEDULED TOP-UP: 2020-04-18 (30-day interval per OEM SOP-ST-003).
+
+REMARKS:
+Plant shutdown for scheduled maintenance from 2020-03-24 (COVID-19 lockdown
+order anticipated). Supervisor K. Srinivas verbally confirmed that "shutdown
+inhibitor protocol" should be followed on 2020-03-23 before gates close.
+Refer OEM Manual Section 4.7 — Extended Shutdown Procedures.
+
+Signed: R. Venkataraman
+Countersigned: K. Srinivas
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: NO

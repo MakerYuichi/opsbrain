@@ -1,0 +1,58 @@
+# ── Python / Backend ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+venv312/
+ENV/
+env/
+
+# pipenv
+Pipfile.lock
+
+# Environment / secrets — never commit
+.env
+*.env.local
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB local store
+chroma_db/
+chroma/
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+*.iml
+
+# VS Code — keep workspace settings, ignore per-user state
+.vscode/extensions.json
+.vscode/.ropeproject
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.log
+*.bak
+*.tmp
+.cache/

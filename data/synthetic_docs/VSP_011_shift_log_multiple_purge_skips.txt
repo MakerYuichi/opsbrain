@@ -1,0 +1,38 @@
+DOCUMENT ID: VSP-SHIFT-011
+TYPE: Shift Log — SMS-1 Weekly Summary (Supervisor Consolidation Report)
+FACILITY: Bharat Steel Works Ltd., SMS-1 Division
+PERIOD: 2025-05-08 to 2025-05-29
+PREPARED BY: Section Head V. Choudhury
+
+--- PURGING COMPLIANCE SUMMARY ---
+
+APS-3 (Ladle Furnace LF-3, Caster-1):
+
+Date        | Heat #s        | Purge Status  | Authorising Officer
+------------|----------------|---------------|--------------------
+2025-05-08  | 1189, 1191     | SKIPPED x2    | P. Misra
+2025-05-10  | 1197           | SKIPPED       | P. Misra
+2025-05-13  | 1204, 1206     | SKIPPED x2    | T. Rao (relief)
+2025-05-16  | 1211           | SKIPPED       | P. Misra
+2025-05-19  | 1219, 1221     | SKIPPED x2    | T. Rao (relief)
+2025-05-22  | 1228           | PARTIAL (8min)| P. Misra (APS-3 partial fix)
+2025-05-26  | 1235, 1237     | SKIPPED x2    | T. Rao (relief)
+2025-05-29  | 1242           | SKIPPED       | T. Rao (relief)
+
+Total heats with no/partial purge: 12 of 14 on LF-3 line.
+
+WO-SMS-1-2025-0331 status: OPEN, assigned to maintenance backlog.
+Estimated completion: "TBD — awaiting FCV spare part from vendor."
+
+V. CHOUDHURY NOTES:
+"Multiple purge omissions have been occurring. Am flagging this to SMS-1
+ Shift Manager for formal risk review. The pattern is concerning, especially
+ as coke oven battery COB-3 has been giving variable coke quality this month
+ (sulphur slightly elevated per QC report QC-COB-2025-0318). If melt
+ composition already stressed, lack of degassing is a compounding risk."
+
+SECTION MANAGER ACTION: No documented response to this note.
+
+--- END OF REPORT ---
+
+KNOWN PATTERN FLAG: YES — Pattern: RECURRING_DEFERRED_MAINTENANCE + CROSS_ASSET_RISK_UNACKNOWLEDGED

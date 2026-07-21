@@ -1,0 +1,43 @@
+DOCUMENT ID: LGP-PERMIT-008
+TYPE: Environmental Clearance / Operating Permit
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+PERMIT NO: EC-AP-CHEM-2015-0047
+ISSUED BY: State Pollution Control Board, Andhra Pradesh Region
+VALID FROM: 2015-08-01
+VALID UNTIL: 2020-07-31
+HAZARDOUS CATEGORY: Schedule 1 (Toxic Chemicals)
+PRIMARY PRODUCT: Styrene Monomer (CAS 100-42-5)
+MAX STORAGE: 3,000 kL total (all tanks combined)
+
+--- CONDITIONS OF CLEARANCE ---
+
+Condition 3.1: Facility shall maintain an emergency response plan, updated
+annually, and conduct community mock drills within 0.5 km radius minimum
+once per 12 months. Last recorded drill: April 2018.
+
+Condition 3.4: All styrene storage tanks shall have automated temperature
+monitoring with remote alarm capability (requirement effective from 2017).
+Compliance status as of last inspection (September 2019): PARTIAL —
+ST-09 and ST-10 compliant; ST-11 RTD installation pending contractor
+availability.
+
+Condition 3.6: Operations in excess of 80% tank capacity shall require
+advance notification to SPCB. No record of such notifications in file.
+
+Condition 4.1: 500m exclusion zone required for any new residential
+construction. Existing residential structures pre-dating permit are
+grandfathered. Colony boundary currently within 180m of tank ST-11.
+
+--- RENEWAL STATUS ---
+
+Renewal application REF: EC-RENEW-2020-0112 submitted 2020-06-05.
+STATUS: Application in process. Facility continued operation under
+"deemed renewal" clause pending SPCB review.
+
+NOTE (handwritten, senior inspector S. Murthy, 2019-09-12):
+"ST-11 temperature monitoring still not installed. Issued verbal notice.
+ Formal show-cause not issued — will follow up at next annual inspection."
+
+--- END OF PERMIT ---
+
+KNOWN PATTERN FLAG: YES — Pattern: PERMIT_COMPLIANCE_GAP + MISSING_INSTRUMENTATION

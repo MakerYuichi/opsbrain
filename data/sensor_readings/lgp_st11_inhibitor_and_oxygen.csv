@@ -1,0 +1,10 @@
+timestamp,asset_id,sensor_id,sensor_type,value,unit,status,facility,notes
+2020-03-18T10:30:00,ST-11,TBC-SAMPLE-01,tbc_concentration,14.8,ppm,OK,Horizon_Chemicals,Pre-dosing sample; below 15ppm target; dosing performed
+2020-03-18T11:30:00,ST-11,TBC-SAMPLE-02,tbc_concentration,17.3,ppm,OK,Horizon_Chemicals,Post-dosing sample; within acceptable range
+2020-03-18T11:30:00,ST-11,DO-PROBE-11,dissolved_oxygen,6.2,ppm,OK,Horizon_Chemicals,Good DO level; TBC effective
+2020-03-23T09:15:00,ST-11,TBC-SAMPLE-03,tbc_concentration,12.1,ppm,WARN,Horizon_Chemicals,Pre-shutdown sample; below 15ppm; inhibitor top-up SKIPPED (drum empty)
+2020-03-23T09:15:00,ST-11,DO-PROBE-11,dissolved_oxygen,5.8,ppm,OK,Horizon_Chemicals,Still acceptable but declining trend without circulation
+2020-04-19T10:15:00,ST-11,TBC-SAMPLE-04,tbc_concentration,6.2,ppm,ALERT,Horizon_Chemicals,Monthly sample by engineer; far below 15ppm minimum; no top-up performed (inhibitor not available)
+2020-04-19T10:15:00,ST-11,DO-PROBE-11,dissolved_oxygen,2.1,ppm,ALERT,Horizon_Chemicals,DO critically low; TBC nearly inactive; oxygen stratification in stagnant tank
+2020-05-03T10:20:00,ST-11,TBC-SAMPLE-05,tbc_concentration,2.8,ppm,CRITICAL,Horizon_Chemicals,TBC barely present; runaway inhibition failing
+2020-05-03T10:20:00,ST-11,DO-PROBE-11,dissolved_oxygen,0.4,ppm,CRITICAL,Horizon_Chemicals,Near-zero DO; TBC completely ineffective above 30degC anyway

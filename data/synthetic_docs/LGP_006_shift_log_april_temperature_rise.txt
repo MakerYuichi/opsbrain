@@ -1,0 +1,37 @@
+DOCUMENT ID: LGP-SHIFT-006
+TYPE: Shift Log
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+SHIFT: Day (07:00–15:00)
+DATE: 2020-04-19
+ENGINEER ON DUTY: B. Krishnamurthy (reduced lockdown staffing)
+SUPERVISOR: K. Srinivas (remote)
+
+--- ENTRY ---
+
+Performed weekly walkthrough per lockdown skeleton-crew protocol.
+Visually inspected tank farm. ST-11 relief vent showed minor condensation.
+
+Attempted to read ST-11 temperature sensor RTD-11: display showing FAULT
+since approximately 2020-03-27 (see prior logs). Attempted reset — no change.
+Instrument team still not available to recalibrate (team on leave / lockdown).
+
+Estimated ST-11 temperature using portable infrared thermometer on tank
+exterior shell: ~29–32°C (note: shell reading ≈ liquid temp + 2–4°C offset).
+This is ABOVE the 20°C limit specified in OEM Section 4.7.2.
+
+Action taken: Phoned Supervisor K. Srinivas.
+K. Srinivas response (per engineer's notes):
+  "Not much we can do right now. Keep monitoring. The tank has TBC in it,
+   it should be fine for another few weeks."
+
+No formal incident report raised. No work order for emergency chiller check.
+No log entry in the plant manager's register.
+
+REMARKS:
+Inhibitor top-up due date was 2020-04-18 (per last dosing on 2020-03-18).
+Inhibitor drum confirmed empty — refill requisition PUR-2020-0412 from
+March not yet fulfilled. No escalation to procurement.
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: YES — Pattern: DEFERRED_MAINTENANCE + TEMPERATURE_EXCEEDANCE_IGNORED

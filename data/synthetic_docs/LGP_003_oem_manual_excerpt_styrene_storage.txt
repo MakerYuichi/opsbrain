@@ -1,0 +1,56 @@
+DOCUMENT ID: LGP-OEM-003
+TYPE: OEM Manual Excerpt
+SOURCE: StyroSafe 2400 Series Styrene Storage System — Operations & Maintenance Manual
+REVISION: Rev. C (2018)
+SECTION: 4.7 — Extended Shutdown and Standby Procedures
+PAGES: 47–52
+APPLICABLE ASSET: Tanks ST-09, ST-10, ST-11
+
+--- EXCERPT ---
+
+4.7.1 Pre-Shutdown Inhibitor Dosing
+Prior to any plant shutdown exceeding 7 days, the operator MUST perform an
+inhibitor top-up to achieve a minimum TBC concentration of 15 ppm in the
+liquid phase. For shutdowns exceeding 30 days, the minimum concentration
+increases to 25 ppm. Dissolved oxygen must be verified ≥5 ppm via grab sample
+before closing tank inspection ports.
+
+WARNING: TBC inhibitor is effective only in the presence of dissolved oxygen.
+Stagnant tanks with no circulation will develop an oxygen gradient; liquid near
+the tank bottom may become oxygen-depleted within 7–14 days depending on
+temperature. Do not assume that a dosed tank is protected indefinitely.
+
+4.7.2 Cooling System Requirements During Shutdown
+The brine chiller circuit MUST remain in operation during any shutdown where
+ambient temperatures are forecast to exceed 25°C. Acceptable tank temperature
+is ≤20°C. If chiller is taken offline for maintenance, maximum allowable
+duration is 72 hours; above this, styrene must be transferred to an alternate
+tank with active cooling.
+
+CAUTION: Auto-polymerisation of styrene is an exothermic reaction. Once
+initiated above ~30°C, the reaction is self-accelerating. At temperatures
+above 52°C, TBC inhibitor loses effectiveness. The heat of polymerisation
+(approximately 660 kJ/kg) will further raise tank temperature in a runaway
+feedback loop. Emergency venting alone will NOT arrest this reaction.
+
+4.7.3 Temperature Monitoring
+At least one calibrated RTD (resistance temperature detector) probe must be
+installed at mid-level on each tank. Alarms shall be configured:
+  — Warning alarm: 18°C
+  — Critical alarm: 25°C
+  — Emergency shutdown trigger: 30°C
+
+If the alarm system is offline for any reason, manual temperature readings must
+be recorded every 4 hours and initialled by a qualified operator.
+
+4.7.4 Inspection Before Restart
+Before re-commissioning following a shutdown exceeding 14 days:
+(a) Sample liquid styrene from top and bottom of tank for TBC concentration
+    and inhibitor effectiveness testing.
+(b) Check dissolved oxygen at three depths.
+(c) Verify chiller brine flow rate before starting transfer pumps.
+(d) Do not initiate transfers until temperature ≤18°C is confirmed.
+
+--- END OF EXCERPT ---
+
+KNOWN PATTERN FLAG: NO (reference document)

@@ -1,0 +1,46 @@
+DOCUMENT ID: VSP-WO-018
+TYPE: Maintenance Work Order
+FACILITY: Bharat Steel Works Ltd., SMS-1 Division
+WORK ORDER NUMBER: WO-SMS1-2025-0331
+ASSET: Argon Purging Station APS-3, Flow Control Valve FCV-APS3
+PRIORITY: HIGH
+DATE RAISED: 2025-05-08 (Shift: Day, G. Naik)
+ASSIGNED TO: SMS-1 Instrument & Electrical Maintenance Team (IEM-2)
+TARGET COMPLETION: 2025-05-15
+
+--- DEFECT DESCRIPTION ---
+FCV-APS3 (argon flow control valve, APS-3 unit) giving erratic output.
+Setpoint 25 NL/min; actual flow fluctuating 18–32 NL/min and occasionally
+dropping to zero without alarm. Observed over minimum 6 consecutive heats.
+OEM specifies ±2 NL/min control tolerance; current deviation 3–4×.
+Multiple heats processed without purge as a result (see shift logs).
+
+--- WORK ORDER HISTORY ---
+
+2025-05-08: WO raised. Priority: HIGH.
+2025-05-10: IEM-2 team lead R. Saxena notes: "FCV-APS3 is a proprietary
+            SteelTec component. Spare actuator not in stores. Placed order
+            with regional vendor (Order PO-IEM-2025-0228)."
+2025-05-15: TARGET DATE MISSED. Vendor delivery: "2–3 weeks."
+            Priority downgraded to MEDIUM by maintenance planner
+            (reason: "production not stopped").
+2025-05-22: Partial fix attempted — actuator position sensor cleaned,
+            temporary improvement observed (one partial-purge heat
+            achieved at 8 minutes). Fault recurred same day.
+2025-06-01: Still open. Vendor delivery pending. No further action logged.
+2025-06-06: EXPLOSION EVENT at Caster-1. WO closed as part of post-incident
+            investigation freeze.
+
+TOTAL OPEN DURATION: 29 days
+TOTAL HEATS PROCESSED WITHOUT PURGE: 12+ (documented in shift logs)
+
+--- POST-INCIDENT NOTE (Investigator, 2025-06-08) ---
+"WO-SMS1-2025-0331 should have been escalated to SMS-1 Superintendent no
+ later than 2025-05-15 given the safety-critical nature of the purging
+ function. The priority downgrade from HIGH to MEDIUM on the same day as
+ target date missed indicates a systemic failure of the maintenance
+ prioritisation process."
+
+--- END OF WORK ORDER ---
+
+KNOWN PATTERN FLAG: YES — Pattern: DEFERRED_MAINTENANCE + PRIORITY_DOWNGRADE_SAFETY_CRITICAL

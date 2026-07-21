@@ -1,0 +1,16 @@
+timestamp,asset_id,sensor_id,sensor_type,value,unit,status,facility,notes
+2025-04-01T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.62,percent,OK,Bharat_Steel_Works,Normal coke quality; standard coal blend
+2025-04-08T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.65,percent,OK,Bharat_Steel_Works,
+2025-04-15T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.68,percent,OK,Bharat_Steel_Works,
+2025-04-22T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.71,percent,WARN,Bharat_Steel_Works,COALSUPPLY-B blend introduced at 40%; above 0.70 warning threshold
+2025-04-29T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.74,percent,WARN,Bharat_Steel_Works,Sulphur still rising; no corrective action on coal blend
+2025-05-06T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.79,percent,ALERT,Bharat_Steel_Works,Sulphur above 0.75 alert threshold; deviation report raised
+2025-05-13T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.82,percent,ALERT,Bharat_Steel_Works,Corrective action pending cost approval; COALSUPPLY-B still at 40%
+2025-05-20T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.81,percent,ALERT,Bharat_Steel_Works,
+2025-05-27T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.80,percent,ALERT,Bharat_Steel_Works,Still above limit; APS-3 purge system still broken
+2025-06-03T08:00:00,COB-3,QC-COKE-SULFUR,coke_sulphur_pct,0.79,percent,ALERT,Bharat_Steel_Works,Combined risk: high-S coke + no ladle purging = elevated inclusion risk
+2025-04-22T08:00:00,BF-2,HM-SULFUR,hot_metal_sulphur_pct,0.038,percent,OK,Bharat_Steel_Works,Normal BF hot metal
+2025-05-06T08:00:00,BF-2,HM-SULFUR,hot_metal_sulphur_pct,0.051,percent,WARN,Bharat_Steel_Works,Above IS 1155 spec of 0.050%; driven by high-S coke from COB-3
+2025-05-13T08:00:00,BF-2,HM-SULFUR,hot_metal_sulphur_pct,0.056,percent,ALERT,Bharat_Steel_Works,Needs stronger desulphurisation in SMS; but purging system broken
+2025-05-20T08:00:00,BF-2,HM-SULFUR,hot_metal_sulphur_pct,0.059,percent,ALERT,Bharat_Steel_Works,
+2025-06-06T08:00:00,BF-2,HM-SULFUR,hot_metal_sulphur_pct,0.057,percent,ALERT,Bharat_Steel_Works,Hot metal fed to heat 1244 (explosion heat)

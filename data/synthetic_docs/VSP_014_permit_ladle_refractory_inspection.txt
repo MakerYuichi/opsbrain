@@ -1,0 +1,44 @@
+DOCUMENT ID: VSP-PTW-014
+TYPE: Permit to Work — Hot Work / Confined Space
+FACILITY: Bharat Steel Works Ltd., SMS-1 Division
+ASSET: Ladle LF-3 (Vessel ID: LD-003)
+PERMIT NUMBER: PTW-SMS1-2025-0204
+DATE ISSUED: 2025-03-10
+VALID UNTIL: 2025-03-12
+WORK DESCRIPTION: Refractory lining inspection and partial patch repair,
+                   ladle LD-003 (LF-3 service ladle).
+ISSUING AUTHORITY: Safety Officer A. Bose
+PERFORMING CREW: Refractory Maintenance Team RMT-4
+
+--- SCOPE OF WORK ---
+1. Cool ladle to ambient and confirm temperature ≤50°C before entry.
+2. Perform visual and ultrasonic thickness inspection of working lining.
+3. Patch areas with lining thickness <80mm (safe limit: ≥100mm; critical
+   inspection threshold: <80mm).
+4. Confirm patch cure and lining integrity before return to service.
+
+FINDINGS:
+Zone A (ladle base, bottom lining): thickness 96mm — within spec, borderline.
+   Recommend inspection at next campaign (≤4 weeks).
+Zone B (ladle barrel, 1/3 height): thickness 88mm — below standard limit.
+   Patched with Refcoat-X700 high-alumina castable. Cure time: 24h at 200°C.
+Zone C (ladle barrel, upper taper): thickness 104mm — OK.
+Slide gate seat area: wear noted at seat ring. Replacement recommended
+   within 2 campaigns.
+
+CLOSURE STATUS: [✓] Inspection complete. [✓] Patches applied. [✓] Cured.
+RETURN TO SERVICE: 2025-03-13
+
+NOTE FROM INSPECTOR A. BOSE:
+"Zone A is borderline. Schedule full relining within 4 weeks (i.e., by
+ 2025-04-10). Slide gate seat ring replacement critical — escalate to
+ procurement immediately."
+
+ACTION TAKEN:
+- Zone A relining: Work Order WO-SMS1-2025-0227 raised.
+  Status as of 2025-06-01: OPEN / NOT STARTED — material on backorder.
+- Slide gate seat ring: Not replaced. Parts in procurement since 2025-03-14.
+
+--- END OF PERMIT ---
+
+KNOWN PATTERN FLAG: NO (but connects via graph to explosion event as contributing ladle condition)

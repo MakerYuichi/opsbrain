@@ -1,0 +1,17 @@
+timestamp,asset_id,sensor_id,sensor_type,value,unit,status,facility,notes
+2025-04-14T10:00:00,APS-3,FCV-APS3,argon_flow,24.8,NL_per_min,OK,Bharat_Steel_Works,PM day; normal before fault onset
+2025-05-08T15:30:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1189; purge skipped; FCV unresponsive
+2025-05-08T18:10:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1191; purge skipped again
+2025-05-10T14:20:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1197; purge skipped; WO open 2 days
+2025-05-13T11:00:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1204; purge skipped
+2025-05-13T14:45:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1206; purge skipped
+2025-05-16T09:30:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1211; purge skipped; WO open 8 days
+2025-05-19T10:15:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1219; purge skipped
+2025-05-19T14:00:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1221; purge skipped
+2025-05-22T09:00:00,APS-3,FCV-APS3,argon_flow,11.2,NL_per_min,DEGRADED,Bharat_Steel_Works,Heat 1228; partial purge 8min at reduced flow (partial fix attempted)
+2025-05-26T11:30:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1235; fault recurred after temp fix; purge skipped
+2025-05-26T15:00:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1237; purge skipped; WO 18 days old
+2025-05-29T13:00:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1242; purge skipped; WO 21 days old
+2025-06-06T15:30:00,APS-3,FCV-APS3,argon_flow,0.0,NL_per_min,FAULT,Bharat_Steel_Works,Heat 1244; purge skipped; EXPLOSION at 16:12 during ladle rotation
+2025-06-06T16:00:00,LD-003,TEMP-LD003,ladle_steel_temp,1618.0,degC,OK,Bharat_Steel_Works,Last recorded temp before explosion; no purge performed
+2025-06-06T16:12:00,LD-003,VIBE-LD003,vibration_anomaly,SPIKE,,CRITICAL,Bharat_Steel_Works,Seismic spike at explosion moment; ladle rotation in progress

@@ -1,0 +1,51 @@
+DOCUMENT ID: VSP-SHIFT-015
+TYPE: Shift Log — SMS-1 Afternoon Shift (Incident Day)
+FACILITY: Bharat Steel Works Ltd., SMS-1 Division
+SHIFT: Afternoon (14:00–22:00)
+DATE: 2025-06-06
+OPERATOR: T. Rao (OP-29), W. Kumar (OP-44)
+SHIFT MANAGER: A. Sharma (on-call; not physically present on floor)
+CAST SUPERVISOR: D. Patel
+
+--- HEAT SEQUENCE ---
+
+14:00 — Shift handover from AM crew. APS-3 status: STILL FAULTY (WO open
+         for 4 weeks). Morning shift log noted "purge skipped again on
+         heat #1242." No formal risk review completed for accumulated skips.
+
+15:30 — Heat #1244. Ladle LF-3 tapped from EAF at 1,618°C, 148 tonnes.
+         Argon purge: SKIPPED (APS-3 fault, no superintendent sign-off,
+         no 15-minute holding check per OEM 7.4.3 — cast supervisor D. Patel
+         stated "same as usual, looks calm on surface").
+
+16:00 — Ladle LF-3 transferred to Caster-1 platform.
+         Crane operator: V. Reddy (CRANE-07).
+         Ladle being rotated and centred for casting alignment.
+
+16:12 — During rotation, SUDDEN EXPLOSION.
+         "Like a cannon." — Witness W. Kumar.
+         Ladle LD-003 tipped. Approximately 148 tonnes of liquid steel at
+         ~1,600°C poured onto shop floor.
+         Crane CRANE-07 reported cable/brake failure simultaneously (under
+         investigation — causal vs consequential).
+         Workers on floor level: 14 persons.
+         8 persons confirmed caught in spill radius.
+
+16:15 — Plant emergency alarm activated (by W. Kumar, manually).
+         Shift Manager A. Sharma reached by phone at 16:17.
+         Fire brigade called 16:16.
+         Plant evacuation commenced.
+
+PRELIMINARY OBSERVATIONS (D. Patel):
+"The ladle went before we opened the gate. No warning. Heard a 'pop' then
+ everything blew sideways."
+
+CROSS-REFERENCE:
+- 12 consecutive heats at LF-3 without purge (see VSP-SHIFT-011)
+- Coke quality deviation noted in COB-3 (see VSP-MAINT-012)
+- Ladle LD-003 Zone A lining borderline since March (see VSP-PTW-014)
+- APS-3 fault open for 4+ weeks (see VSP-MAINT-009, VSP-SHIFT-010)
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: YES — Pattern: DEFERRED_MAINTENANCE_CASCADE + EXPLOSION_EVENT

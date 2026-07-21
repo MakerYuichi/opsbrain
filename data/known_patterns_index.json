@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "description": "Hand-labelled known-pattern incidents for precision/recall testing of Pattern Breaker feature.",
+  "patterns": [
+    {
+      "pattern_id": "KP-001",
+      "pattern_name": "DEFERRED_MAINTENANCE_CRITICAL_SAFETY_SYSTEM",
+      "description": "A safety-critical maintenance task is deferred (either formally via open work order or informally via verbal 'not now') and the deferral persists long enough to create an active hazard. Distinguished from routine delays by: (a) the asset is directly in the safety/protection chain, and (b) the deferral is repeated or extends beyond the original deadline.",
+      "labelled_documents": [
+        {
+          "doc_id": "LGP-MAINT-002",
+          "label": "PRIMARY",
+          "evidence": "ST-11 nitrogen blanket deferred; chiller flow check skipped; inhibitor refill not completed on shutdown day",
+          "signal_date": "2020-03-23"
+        },
+        {
+          "doc_id": "LGP-PTW-004",
+          "label": "SECONDARY",
+          "evidence": "FT-11 flow sensor noted as erratic; no recalibration date assigned",
+          "signal_date": "2020-01-16"
+        },
+        {
+          "doc_id": "VSP-MAINT-009",
+          "label": "PRIMARY",
+          "evidence": "APS-3 purge calibration bypassed; lance depth gauge skipped; flow anomaly reported verbally with no work order",
+          "signal_date": "2025-04-14"
+        },
+        {
+          "doc_id": "VSP-WO-018",
+          "label": "PRIMARY",
+          "evidence": "WO for safety-critical purge system open 29 days; priority downgraded from HIGH to MEDIUM; target date missed without escalation",
+          "signal_date": "2025-05-15"
+        }
+      ]
+    },
+    {
+      "pattern_id": "KP-002",
+      "pattern_name": "TEMPERATURE_EXCEEDANCE_IGNORED",
+      "description": "A temperature sensor (or manual reading) shows a value above a defined safe limit. The observation is recorded in a log but no corrective action is taken, no incident report is raised, and the condition is not escalated beyond the immediate shift.",
+      "labelled_documents": [
+        {
+          "doc_id": "LGP-SHIFT-006",
+          "label": "PRIMARY",
+          "evidence": "ST-11 shell temperature 29-32°C measured; above 20°C limit; supervisor told 'not much we can do'; no work order raised",
+          "signal_date": "2020-04-19"
+        },
+        {
+          "doc_id": "LGP-INCIDENT-019",
+          "label": "SECONDARY",
+          "evidence": "ST-11 reached 27.3°C in July 2019; alarm did not trigger due to corroded relay; corrective actions for redundant alarm not implemented",
+          "signal_date": "2019-07-14"
+        }
+      ]
+    },
+    {
+      "pattern_id": "KP-003",
+      "pattern_name": "MISSING_INSTRUMENTATION_PERMIT_NONCOMPLIANCE",
+      "description": "A regulatory permit or OEM specification requires an instrument (sensor, alarm, monitor) to be installed. The installation is repeatedly deferred. The gap is noted in inspections but no enforcement action follows. The missing instrument would have provided the earliest warning of the eventual incident.",
+      "labelled_documents": [
+        {
+          "doc_id": "LGP-PERMIT-008",
+          "label": "PRIMARY",
+          "evidence": "Permit Condition 3.4 required RTD on ST-11 by 2017; as of 2020 still not installed; three extensions granted",
+          "signal_date": "2020-01-01"
+        },
+        {
+          "doc_id": "LGP-AUDIT-017",
+          "label": "PRIMARY",
+          "evidence": "DISH inspector found ST-11 temp monitoring non-compliant (third extension); recommended show-cause notice; SPCB took no action",
+          "signal_date": "2019-10-03"
+        }
+      ]
+    },
+    {
+      "pattern_id": "KP-004",
+      "pattern_name": "SHIFT_HANDOVER_BLINDNESS_ALARM_FAILURE",
+      "description": "A safety signal (anomalous smell, sensor fault, visual anomaly) is detected by a shift operator but is not transmitted to the next shift, not escalated, or is dismissed due to lack of training. The signal is the last observable warning before the incident.",
+      "labelled_documents": [
+        {
+          "doc_id": "LGP-SHIFT-005",
+          "label": "PRIMARY",
+          "evidence": "Night guard detected unusual odour at 03:00; thought it was a display error; not reported; day shift did not review logs",
+          "signal_date": "2020-03-27"
+        },
+        {
+          "doc_id": "LGP-SHIFT-007",
+          "label": "PRIMARY",
+          "evidence": "Guard noted strong pungent odour at 01:45; could not reach supervisor; did not activate plant alarm; 45-min window lost before major release",
+          "signal_date": "2020-05-07"
+        }
+      ]
+    },
+    {
+      "pattern_id": "KP-005",
+      "pattern_name": "RECURRING_PURGE_SKIP_CUMULATIVE_RISK",
+      "description": "A metallurgical process step that prevents gas pocket accumulation is skipped on multiple consecutive batches. Each skip is authorised informally at shift level. The cumulative risk across skips is never assessed at a supervisory level. The OEM explicitly prohibits repeated skips without formal risk assessment.",
+      "labelled_documents": [
+        {
+          "doc_id": "VSP-SHIFT-010",
+          "label": "PRIMARY",
+          "evidence": "Two heats skipped purge in one shift; APS-3 fault; furnace coordinator authorised without superintendent sign-off; caster not notified",
+          "signal_date": "2025-05-08"
+        },
+        {
+          "doc_id": "VSP-SHIFT-011",
+          "label": "PRIMARY",
+          "evidence": "Section head documents 12 purge-skipped heats over 3 weeks; flags combined risk with COB-3 quality; section manager did not respond",
+          "signal_date": "2025-05-29"
+        }
+      ]
+    },
+    {
+      "pattern_id": "KP-006",
+      "pattern_name": "CROSS_ASSET_RISK_NOT_AGGREGATED",
+      "description": "Two or more assets in the same process chain each show individual degraded conditions that, in isolation, are borderline or manageable. However, no system exists to aggregate these conditions across assets. The combination creates a significantly higher risk than either condition alone.",
+      "labelled_documents": [
+        {
+          "doc_id": "VSP-QC-016",
+          "label": "PRIMARY",
+          "evidence": "BF-2 hot metal sulphur above spec due to COB-3 coal blend; BF Superintendent noted SMS-1 must strengthen desulphurisation — but SMS-1 had broken purging system",
+          "signal_date": "2025-05-20"
+        },
+        {
+          "doc_id": "VSP-SHIFT-015",
+          "label": "PRIMARY",
+          "evidence": "Explosion heat 1244 combined: 29 days no purge + high-S hot metal + borderline ladle lining + faulty crane — no risk aggregation view existed",
+          "signal_date": "2025-06-06"
+        },
+        {
+          "doc_id": "LGP-INCIDENT-019",
+          "label": "SECONDARY",
+          "evidence": "Two separate anomaly records on ST-11 (alarm relay fault and FT-11 flow sensor fault) were never linked in a single asset risk view",
+          "signal_date": "2019-07-14"
+        }
+      ]
+    }
+  ]
+}

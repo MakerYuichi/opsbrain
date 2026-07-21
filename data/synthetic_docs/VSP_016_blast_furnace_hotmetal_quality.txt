@@ -1,0 +1,29 @@
+DOCUMENT ID: VSP-QC-016
+TYPE: Quality Control Report — Blast Furnace Hot Metal Analysis
+FACILITY: Bharat Steel Works Ltd., Blast Furnace Division
+ASSET: Blast Furnace BF-2 (feed to SMS-1 EAF)
+PERIOD: 2025-May (Weekly averages)
+PREPARED BY: QC Analyst P. Nair
+APPROVED BY: BF Superintendent L. Verma
+
+--- HOT METAL COMPOSITION SUMMARY (Weekly Avg.) ---
+
+Week        | [Si]%  | [S]%   | [P]%   | [Mn]%  | Temp (°C) | Notes
+------------|--------|--------|--------|--------|-----------|-------
+May W1      | 0.42   | 0.038  | 0.085  | 0.31   | 1,488     | Normal
+May W2      | 0.49   | 0.042  | 0.089  | 0.33   | 1,491     | S ↑ slightly
+May W3      | 0.51   | 0.051  | 0.092  | 0.35   | 1,485     | S rising; COB-3 coal blend change flagged
+May W4      | 0.55   | 0.059  | 0.097  | 0.37   | 1,479     | S above std limit (0.050%). Temp falling.
+
+QUALITY SPECIFICATION (IS 1155): [S] ≤ 0.050%, [Si] ≤ 0.500%
+
+Week 3–4: Both Si and S above specification. Root cause identified:
+COB-3 coal blend change to high-ash import coal (COALSUPPLY-B, 40% share).
+Formal deviation report DR-BF-2025-0044 raised. Corrective action:
+request to Coke Ovens to revert blend — PENDING (cost approval required).
+
+IMPACT NOTICE TO SMS-1: Not formally issued. BF Superintendent note states:
+"SMS is aware of quality variation; desulphurisation step must be strengthened."
+No evidence SMS-1 received or acted on this note.
+
+KNOWN PATTERN FLAG: NO (upstream link — connects via graph to purge skips as risk amplifier)

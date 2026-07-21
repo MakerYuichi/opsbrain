@@ -1,0 +1,40 @@
+DOCUMENT ID: LGP-MAINT-002
+TYPE: Maintenance Log — Plant Shutdown Checklist
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+ASSET: Styrene Storage Area (Tanks ST-09, ST-10, ST-11)
+DATE: 2020-03-23
+SHIFT: Day (07:00–15:00)
+TECHNICIAN: P. Ramachandran (MT-07), S. Hegde (MT-12)
+SUPERVISOR: K. Srinivas
+
+--- SHUTDOWN CHECKLIST (per SOP-SHUT-001) ---
+
+[✓] Raw material receipt valves closed
+[✓] Transfer pumps P-01 through P-04 isolated and locked
+[✓] Nitrogen blanket confirmed on ST-09 and ST-10
+[✗] INCOMPLETE — ST-11 nitrogen blanket: blanketing valve NV-11 found to be
+    sticking; deferred to next shift. Verbal handover given to evening shift
+    supervisor (name not recorded in this log).
+[✓] Brine chiller compressor CHR-01: set to reduced-load mode
+[ ] NOT CHECKED — Chiller flow confirmation on ST-11 loop: instrument panel
+    offline for upgrade (scheduled since Feb 2020). Visual check not performed.
+[ ] NOT CHECKED — TBC inhibitor top-up for extended shutdown: technician
+    MT-07 states inhibitor drum was empty; requisition for refill submitted
+    (Requisition Ref: PUR-2020-0412) but not yet fulfilled.
+
+REMARKS:
+Plant to remain locked from 2020-03-24 until further notice. Minimum security
+staffing of 2 guards per shift. No process engineer on site after 2020-03-24.
+Cooling system for ST-11 status: UNCERTAIN — follow up required.
+
+RISK NOTE (handwritten, initialled K.S.):
+"ST-11 at 78% fill. If chiller fails during shutdown, temp will rise.
+ Need someone to check weekly. Will inform plant manager."
+ — No record of this being escalated to plant manager's log.
+
+Signed: P. Ramachandran, S. Hegde
+Countersigned: K. Srinivas
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: YES — Pattern: DEFERRED_MAINTENANCE + INCOMPLETE_SHUTDOWN

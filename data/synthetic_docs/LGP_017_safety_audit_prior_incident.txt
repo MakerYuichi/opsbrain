@@ -1,0 +1,56 @@
+DOCUMENT ID: LGP-AUDIT-017
+TYPE: Safety Inspection Report
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+INSPECTION BODY: Directorate of Industrial Safety and Health (DISH),
+                 Andhra Pradesh — Visakhapatnam Sub-Office
+DATE: 2019-10-03
+INSPECTING OFFICER: Deputy Director P. Gopal (DISH/VZG/DD-04)
+
+--- INSPECTION FINDINGS ---
+
+1. INSTRUMENTATION AND MONITORING
+   Finding 1.1: Tank ST-11 lacks automated temperature monitoring.
+   Permit Condition 3.4 requires RTD with remote alarm by 2017. Status: NON-COMPLIANT.
+   Deadline given to management: 2019-12-31. (Previous deadline was 2018-06-30.)
+   Management response: "Work order placed with contractor XYZ Instruments.
+   Awaiting equipment delivery. Request 3-month extension."
+   Inspector note: This is the THIRD extension granted on this item.
+
+   Finding 1.2: Flow transmitter FT-11 (chiller circuit, ST-11 loop) reads
+   erratically. Last calibration record: January 2020 [note: date appears wrong
+   in original document, likely means January 2019 or 2018]. Recommend
+   immediate recalibration.
+
+2. INHIBITOR MANAGEMENT
+   Finding 2.1: TBC inhibitor inventory record shows last replenishment
+   March 2019. No confirmation of dosing conducted April–October 2019.
+   Interval non-compliance with OEM SOP requirement (30-day dosing).
+
+   Finding 2.2: No dissolved oxygen monitoring records found for 2019.
+
+3. EMERGENCY RESPONSE
+   Finding 3.1: Community mock drill last conducted April 2018 — overdue by
+   18 months against Condition 3.1 requirement (annual). No drill scheduled.
+
+   Finding 3.2: Emergency contact list on control room wall: last updated
+   February 2018. Four phone numbers confirmed disconnected by inspector.
+
+   Finding 3.3: Plant-wide public address system: tested — WORKING.
+   However, no trained operator rostered to activate it during security-only
+   shifts (night and weekend). Single guard on duty unaware of PA procedure.
+
+4. COMPLIANCE STATUS SUMMARY
+   Items COMPLIANT: 7/14
+   Items NON-COMPLIANT (minor): 3/14
+   Items NON-COMPLIANT (major): 4/14 (Findings 1.1, 2.1, 3.1, 3.2)
+
+INSPECTOR RECOMMENDATION:
+"Show-cause notice should be issued for repeated non-compliance on Finding 1.1.
+Three extensions without action is a systemic failure, not a resource issue."
+
+SPCB ACTION: Show-cause notice NOT issued. Matter referred back to DISH.
+No action on record between October 2019 and May 2020 incident date.
+
+--- END OF AUDIT ---
+
+KNOWN PATTERN FLAG: YES — Pattern: PERMIT_COMPLIANCE_GAP + MISSING_INSTRUMENTATION + REGULATORY_INACTION

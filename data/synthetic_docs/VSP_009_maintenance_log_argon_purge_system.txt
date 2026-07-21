@@ -1,0 +1,37 @@
+DOCUMENT ID: VSP-MAINT-009
+TYPE: Maintenance Log — Equipment PM Record
+FACILITY: Bharat Steel Works Ltd., SMS-1 Division (fictional counterpart to RINL VSP)
+ASSET: Argon Purging Station APS-3 (serving Ladle Furnace LF-3, Caster-1 feed)
+DATE: 2025-04-14
+SHIFT: Day (06:00–14:00)
+TECHNICIAN: D. Mahato (MT-22), B. Rao (MT-18)
+SUPERVISOR: R. Panda
+
+--- SCHEDULED PM TASKS (PM-FORM-SMS-019, Monthly) ---
+
+[✓] Purge lance inspection: lance tip replaced; wear within tolerance
+[✓] Argon supply manifold pressure check: 6.8 bar — nominal
+[✓] Flow control valve FCV-APS3: tested — responding to PLC commands
+[✗] BYPASSED — Purging duration calibration test: LF-3 was occupied with
+    heat #1147; calibration deferred. Supervisor R. Panda verbal approval.
+    No rescheduling date set.
+[✗] BYPASSED — Lance insertion depth gauge verification: calibration tool
+    unavailable (on loan to SMS-2). Not rescheduled.
+
+REMARKS:
+APS-3 used for argon stirring and degassing of ladle before Caster-1
+transfer. Correct purging removes dissolved hydrogen, equalises temperature,
+and floats non-metallic inclusions to slag layer. Under-purging or incomplete
+purging can leave gas pockets within the melt.
+
+NOTE FROM TECHNICIAN D. MAHATO:
+"Noticed APS-3 flow controller giving inconsistent flow readings over last
+ 2–3 heats — fluctuating between 18 and 32 NL/min against setpoint of
+ 25 NL/min. Reported verbally to shift supervisor. No work order raised."
+
+Signed: D. Mahato, B. Rao
+Countersigned: R. Panda
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: YES — Pattern: DEFERRED_MAINTENANCE + INSTRUMENTATION_ANOMALY_UNREPORTED

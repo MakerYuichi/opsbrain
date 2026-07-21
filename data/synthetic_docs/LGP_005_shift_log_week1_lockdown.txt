@@ -1,0 +1,38 @@
+DOCUMENT ID: LGP-SHIFT-005
+TYPE: Shift Log
+FACILITY: Horizon Chemicals Pvt. Ltd., Eastport Industrial Zone
+SHIFT: Night (23:00–07:00)
+DATE: 2020-03-27 (Night) → 2020-03-28 (Morning)
+GUARD ON DUTY: M. Naidu (Security ID: SEC-14)
+PROCESS ENGINEER ON CALL: None (plant in shutdown, engineer unreachable)
+REPORT TO: Plant Safety Coordinator
+
+--- HOURLY ROUNDS LOG ---
+
+23:15 — External perimeter clear. Tanks ST-09, ST-10, ST-11 visually
+         observed; no vapour visible. No odour.
+01:00 — Internal walkthrough. No anomalies.
+03:00 — Walkthrough. ST-11 area: noted slight musty/chemical odour.
+         Not identified as styrene (guard not trained in chemical ID).
+         No alarm triggered; smell dissipated after 5 minutes.
+         NOTE: Not reported to on-call supervisor.
+05:00 — Walkthrough. No odour. Tank area clear.
+07:00 — Day shift handover. Outgoing report: "No incidents."
+
+--- INSTRUMENTATION READINGS (manual log, operator station) ---
+
+Time     | ST-09 Temp | ST-10 Temp | ST-11 Temp | CHR-01 Flow
+03:00    | 17.1°C     | 17.6°C     | FAULT      | FAULT
+         (ST-11 RTD and chiller flow sensor FT-11 showing FAULT/no reading)
+
+REMARKS:
+Guard M. Naidu noted the FAULT reading on the panel at 03:00 but did not
+know the significance. No emergency number posted at the panel. Guard stated
+in later interview: "I thought it was a display error, the machine looked fine."
+
+Day shift (assigned to admin check-in only during lockdown) did not review
+instrument logs on arrival.
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: YES — Pattern: MISSING_INSTRUMENTATION + SHIFT_HANDOVER_BLINDNESS

@@ -1,0 +1,42 @@
+DOCUMENT ID: VSP-MAINT-012
+TYPE: Maintenance Log — Coke Oven Battery
+FACILITY: Bharat Steel Works Ltd., Coke Ovens Division
+ASSET: Coke Oven Battery COB-3 (60 ovens, Byproduct Recovery type)
+DATE: 2025-04-02
+SHIFT: Day (06:00–14:00)
+TECHNICIAN: S. Biswal (MT-11), K. Tripathy (MT-09)
+SUPERVISOR: N. Garg
+
+--- SCHEDULED INSPECTION LOG ---
+
+Routine quarterly inspection of refractory walls and heating flues.
+
+Oven #18:  Refractory crack detected — length ~420mm, Severity: MODERATE.
+           Temporary ceramic patch applied. Recommend full reline within 60 days.
+Oven #23:  Heating flue blockage — partial. Cleared with jet rod.
+           Root cause: coal fines from recent batch (supplier COALSUPPLY-B).
+Oven #31:  Refractory crack — length ~210mm, Severity: MINOR. Monitor.
+Oven #47:  No anomalies.
+Oven #51:  Temperature deviation noted — oven crown temperature 40°C below
+           setpoint. Cause: clogged regenerator. Cleaned. Temperature recovering.
+
+COAL BLEND NOTE (Charge Supervisor K. Nair):
+"Current blend ratio shifted to 40% COALSUPPLY-B (cheaper import coal) vs
+ standard 25%. Finance directive per cost-reduction drive Q1-2025. Ash content
+ of COALSUPPLY-B higher than spec (9.2% vs 8.0% spec). Volatile matter also
+ variable. Impact on coke quality: expect slightly higher sulphur and lower
+ CSR (Coke Strength after Reaction)."
+
+IMPACT ON DOWNSTREAM:
+Higher sulphur in coke → higher sulphur in blast furnace hot metal →
+elevated sulphur in EAF/ladle steel → desulphurisation more critical →
+argon purging more important to float sulphide inclusions.
+
+No formal cross-divisional alert issued to SMS-1.
+
+Signed: S. Biswal, K. Tripathy
+Countersigned: N. Garg
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: NO (upstream contributing factor — connects to VSP-SHIFT-010, 011 via knowledge graph)

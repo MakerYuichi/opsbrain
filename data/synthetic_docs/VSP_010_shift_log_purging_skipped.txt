@@ -1,0 +1,46 @@
+DOCUMENT ID: VSP-SHIFT-010
+TYPE: Shift Log — Steel Melting Shop SMS-1
+FACILITY: Bharat Steel Works Ltd.
+SHIFT: Afternoon (14:00–22:00)
+DATE: 2025-05-08
+OPERATOR: G. Naik (OP-31), H. Singh (OP-27)
+FURNACE COORDINATOR: P. Misra
+
+--- HEAT LOG SUMMARY ---
+
+Heat #1189 — Ladle LF-3
+  Steel grade: IS 2830 (structural low-alloy)
+  Tap temperature: 1,621°C
+  Argon purge: SKIPPED — Reason: APS-3 flow controller unresponsive.
+               Work order raised (WO-SMS-1-2025-0331). APS-3 flagged
+               as "intermittent fault."
+               Decision to proceed without purge: authorised by
+               furnace coordinator P. Misra. Stated: "Composition
+               looks okay on sample, no degassing issue expected."
+  Ladle to casting queue: 17:45
+
+Heat #1190 — Ladle LF-2
+  Argon purge: completed normally, 18 minutes at 26 NL/min.
+  No anomalies.
+
+Heat #1191 — Ladle LF-3 (second use same shift)
+  Argon purge: SKIPPED again — APS-3 still awaiting maintenance.
+  Decision: proceed without purge. Furnace coordinator P. Misra.
+  Carbon and sulphur within spec on spectrometer sample.
+
+REMARKS:
+APS-3 has been non-operational or intermittent for 6 shifts.
+WO-SMS-1-2025-0331 not yet assigned to maintenance crew.
+Both heats (#1189, #1191) processed without argon purge.
+Downstream Caster-1 team not explicitly notified of purge omission.
+
+RISK: Without purge, trapped hydrogen/argon gas pockets possible;
+temperature gradient within ladle not homogenised.
+No entry in the risk register for this decision.
+
+Signed: G. Naik, H. Singh
+Countersigned: P. Misra
+
+--- END OF LOG ---
+
+KNOWN PATTERN FLAG: YES — Pattern: DEFERRED_MAINTENANCE + CROSS_ASSET_NOTIFICATION_FAILURE
