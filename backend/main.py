@@ -1,7 +1,5 @@
 """
-Industrial Knowledge Intelligence Platform - FastAPI Backend
-Entry point. Features (ingestion, graph, Time Machine, Pattern Breaker, Graph Explorer)
-will be added in subsequent phases.
+Industrial Knowledge Intelligence Platform — FastAPI Backend
 """
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -11,8 +9,8 @@ load_dotenv()
 
 app = FastAPI(
     title="Industrial Knowledge Intelligence API",
-    description="Unified industrial document intelligence with Time Machine, Pattern Breaker, and Graph Explorer",
-    version="0.1.0",
+    description="Time Machine, Pattern Breaker, Graph Explorer, Chat",
+    version="0.2.0",
 )
 
 app.add_middleware(
@@ -23,10 +21,38 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from routers.timeline import router as timeline_router
+from routers.patterns import router as patterns_router
+from routers.graph    import router as graph_router
+from routers.chat     import router as chat_router
+from routers.stats    import router as stats_router
+from routers.agents   import router as agents_router
+from routers.ingest_router import router as ingest_router
+from routers.validation import router as validation_router
+from routers.metrics import router as metrics_router
+from routers.mobile import router as mobile_router
+from routers.benchmark import router as benchmark_router
+from routers.evaluation import router as evaluation_router
+from routers.incremental_ingest import router as incremental_ingest_router
+
+app.include_router(timeline_router, tags=["Time Machine"])
+app.include_router(patterns_router)
+app.include_router(graph_router)
+app.include_router(chat_router)
+app.include_router(stats_router)
+app.include_router(agents_router)
+app.include_router(ingest_router)
+app.include_router(validation_router)
+app.include_router(metrics_router)
+app.include_router(mobile_router)
+app.include_router(benchmark_router)
+app.include_router(evaluation_router)
+app.include_router(incremental_ingest_router)
+
 
 @app.get("/health")
 async def health():
-    return {"status": "ok", "version": "0.1.0"}
+    return {"status": "ok", "version": "0.2.0"}
 
 
 if __name__ == "__main__":
