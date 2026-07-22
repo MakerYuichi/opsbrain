@@ -3,11 +3,8 @@ import { Smartphone, Search, AlertTriangle, CheckCircle, Clock, MapPin, Plus, Qr
 import { fetchAssets } from '../api/timeline'
 import type { AssetItem } from '../types/timeline'
 import AssetPicker from '../components/AssetPicker'
-import type { NavContext } from '../App'
 
-interface Props { navCtx: NavContext }
-
-export default function MobileField({ navCtx }: Props) {
+export default function MobileField() {
   const [assets, setAssets] = useState<AssetItem[]>([])
   const [selectedAsset, setSelectedAsset] = useState<string>('APS-3')
   const [loading, setLoading] = useState(false)

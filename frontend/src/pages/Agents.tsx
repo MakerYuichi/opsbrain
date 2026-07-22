@@ -4,11 +4,8 @@ import { Brain, AlertTriangle, Wrench, Loader2, CheckCircle, XCircle, Clock, Fil
 import { fetchAssets } from '../api/timeline'
 import type { AssetItem } from '../types/timeline'
 import AssetPicker from '../components/AssetPicker'
-import type { NavContext } from '../App'
 
-interface Props { navCtx: NavContext }
-
-export default function Agents({ navCtx }: Props) {
+export default function Agents() {
   const [searchParams, setSearchParams] = useSearchParams()
   const [assets, setAssets] = useState<AssetItem[]>([])
   const [activeTab, setActiveTab] = useState<'rca' | 'compliance' | 'maintenance'>('rca')
@@ -208,7 +205,7 @@ function RCAPanel({ loading, result, error, thinking, onRun }: any) {
             <span className="text-sm font-semibold text-indigo-700">Agent Thinking</span>
           </div>
           <div className="space-y-2">
-            {thinking.map((step, i) => (
+            {thinking.map((step: string, i: number) => (
               <div key={i} className="flex items-center gap-2 text-sm text-indigo-600">
                 <Loader2 size={12} className="animate-spin" />
                 {step}

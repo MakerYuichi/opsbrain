@@ -280,8 +280,8 @@ function InnerApp() {
           <Route path="/timeline" element={<TimeMachine   navCtx={navCtx} />} />
           <Route path="/patterns" element={<PatternBreaker navCtx={navCtx} />} />
           <Route path="/graph"    element={<GraphExplorer  navCtx={navCtx} />} />
-          <Route path="/agents"   element={<Agents        navCtx={navCtx} />} />
-          <Route path="/mobile"   element={<MobileField   navCtx={navCtx} />} />
+          <Route path="/agents"   element={<Agents />} />
+          <Route path="/mobile"   element={<MobileField />} />
           <Route path="/chat"     element={<Chat />} />
         </Routes>
         {/* Floating chat bubble — always visible, on top of everything */}
