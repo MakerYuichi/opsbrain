@@ -1,0 +1,39 @@
+# P&ID Drawing: Argon Purging System - APS-3
+# Facility: Bharat Steel Works Ltd.
+# Drawing ID: P&ID-APS-3-001
+# Revision: 2.0
+# Date: 15 Jun 2025
+
+# EQUIPMENT TAGS
+APS-3: Argon Purging System
+V-101: Argon Supply Valve
+V-102: Purge Control Valve
+P-101: Pressure Sensor
+T-101: Temperature Sensor
+LF-3: Ladle Furnace
+
+# PIPING CONNECTIONS
+APS-3 -> V-101 -> LF-3
+APS-3 -> V-102 -> P-101
+APS-3 -> T-101
+
+# PROCESS FLOW
+Argon Supply -> APS-3 -> V-101 -> LF-3 (Ladle Purging)
+Argon Supply -> APS-3 -> V-102 -> P-101 (Pressure Monitoring)
+APS-3 -> T-101 (Temperature Monitoring)
+
+# SAFETY INTERLOCKS
+V-101: Normally Closed - Opens on purge command
+V-102: Pressure Relief - Opens at >2.5 bar
+P-101: High Pressure Alarm - Triggers at 3.0 bar
+T-101: High Temperature Alarm - Triggers at 500°C
+
+# MAINTENANCE NOTES
+Last Inspection: 10 Jun 2025
+Next Scheduled: 10 Dec 2025
+Status: Operational
+Deferred Work: V-102 calibration (deferred from 01 May 2025)
+
+# COMPLIANCE TAGS
+PESO-8.3: Pressure vessel inspection required
+ISO 45001-8.1.2: Near-miss escalation protocol

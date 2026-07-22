@@ -1,0 +1,2047 @@
+{
+  "LGP-MAINT-001": [
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-18T07:00:00",
+      "content": "Routine inhibitor top-up performed on Tank ST-11.",
+      "source_span": "Routine inhibitor top-up performed on Tank ST-11.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INHIBITOR_DOSING",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-18T07:00:00",
+      "content": "Added 120 litres of TBC (Tertiary Butyl Catechol) solution at 50 ppm concentration.",
+      "source_span": "TBC (Tertiary Butyl Catechol) solution added: 120 litres @ 50 ppm concentration.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "TEMPERATURE_READING",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-18T07:00:00",
+      "content": "Tank temperature was 16.4\u00b0C, which is within the acceptable range of \u226420\u00b0C.",
+      "source_span": "Tank temperature at time of dosing: 16.4\u00b0C (within acceptable range \u226420\u00b0C).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-18T07:00:00",
+      "content": "Cooling brine circulation flow rate was 18 m\u00b3/h.",
+      "source_span": "Cooling brine circulation confirmed operational; flow rate 18 m\u00b3/h.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DISSOLVED_OXYGEN_READING",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-18T07:00:00",
+      "content": "Dissolved oxygen level sampled from top tap was 6.2 ppm.",
+      "source_span": "Dissolved oxygen level sampled from top tap: 6.2 ppm (acceptable).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-04-18T00:00:00",
+      "content": "Next scheduled inhibitor top-up is set for 2020-04-18 per OEM SOP-ST-003.",
+      "source_span": "NEXT SCHEDULED TOP-UP: 2020-04-18 (30-day interval per OEM SOP-ST-003).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-24T00:00:00",
+      "content": "Plant shutdown scheduled for 2020-03-24 due to anticipated COVID-19 lockdown order.",
+      "source_span": "Plant shutdown for scheduled maintenance from 2020-03-24 (COVID-19 lockdown order anticipated).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-23T00:00:00",
+      "content": "Shutdown inhibitor protocol to be followed on 2020-03-23 before facility closure.",
+      "source_span": "Supervisor K. Srinivas verbally confirmed that \"shutdown inhibitor protocol\" should be followed on 2020-03-23 before gates close.",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-MAINT-002": [
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "Raw material receipt valves were closed.",
+      "source_span": "Raw material receipt valves closed",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "P-01",
+        "P-02",
+        "P-03",
+        "P-04"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "Transfer pumps P-01 through P-04 were isolated and locked.",
+      "source_span": "Transfer pumps P-01 through P-04 isolated and locked",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "Nitrogen blanket was confirmed on ST-09 and ST-10.",
+      "source_span": "Nitrogen blanket confirmed on ST-09 and ST-10",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "ST-11",
+        "NV-11"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "Nitrogen blanketing for ST-11 was deferred because blanketing valve NV-11 was sticking.",
+      "source_span": "ST-11 nitrogen blanket: blanketing valve NV-11 found to be sticking; deferred to next shift.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "CHR-01"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "Brine chiller compressor CHR-01 was set to reduced-load mode.",
+      "source_span": "Brine chiller compressor CHR-01: set to reduced-load mode",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "Chiller flow confirmation on ST-11 loop could not be performed because the instrument panel is offline for upgrade.",
+      "source_span": "Chiller flow confirmation on ST-11 loop: instrument panel offline for upgrade (scheduled since Feb 2020).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INHIBITOR_DOSING",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "TBC inhibitor top-up for extended shutdown was not completed because the inhibitor drum was empty.",
+      "source_span": "TBC inhibitor top-up for extended shutdown: technician MT-07 states inhibitor drum was empty",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "WORK_ORDER",
+      "asset_ids": [],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "A requisition for inhibitor refill was submitted under reference PUR-2020-0412.",
+      "source_span": "requisition for refill submitted (Requisition Ref: PUR-2020-0412)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "ST-11 is currently at 78% fill level.",
+      "source_span": "ST-11 at 78% fill.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "There is a risk of temperature rise in ST-11 if the chiller fails during the shutdown.",
+      "source_span": "If chiller fails during shutdown, temp will rise.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [],
+      "timestamp": "2020-03-23T07:00:00",
+      "content": "The risk regarding ST-11 temperature rise was not escalated to the plant manager's log.",
+      "source_span": "No record of this being escalated to plant manager's log.",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-OEM-003": [
+    {
+      "fact_type": "INHIBITOR_DOSING",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "For shutdowns exceeding 7 days, a minimum TBC concentration of 15 ppm in the liquid phase is required.",
+      "source_span": "Prior to any plant shutdown exceeding 7 days, the operator MUST perform an inhibitor top-up to achieve a minimum TBC concentration of 15 ppm in the liquid phase.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INHIBITOR_DOSING",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "For shutdowns exceeding 30 days, the minimum TBC concentration must be 25 ppm.",
+      "source_span": "For shutdowns exceeding 30 days, the minimum concentration increases to 25 ppm.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DISSOLVED_OXYGEN_READING",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Dissolved oxygen must be verified to be at least 5 ppm via grab sample before closing tank inspection ports.",
+      "source_span": "Dissolved oxygen must be verified \u22655 ppm via grab sample before closing tank inspection ports.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Stagnant tanks without circulation may develop an oxygen gradient, leading to oxygen depletion at the tank bottom within 7\u201314 days.",
+      "source_span": "Stagnant tanks with no circulation will develop an oxygen gradient; liquid near the tank bottom may become oxygen-depleted within 7\u201314 days depending on temperature.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The brine chiller circuit must remain operational if ambient temperatures are forecast to exceed 25\u00b0C.",
+      "source_span": "The brine chiller circuit MUST remain in operation during any shutdown where ambient temperatures are forecast to exceed 25\u00b0C.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The acceptable tank temperature during shutdown is 20\u00b0C or less.",
+      "source_span": "Acceptable tank temperature is \u226420\u00b0C.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Chiller maintenance is limited to a maximum of 72 hours before styrene must be transferred to an alternate tank.",
+      "source_span": "If chiller is taken offline for maintenance, maximum allowable duration is 72 hours; above this, styrene must be transferred to an alternate tank with active cooling.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Auto-polymerisation of styrene is an exothermic reaction that becomes self-accelerating above 30\u00b0C.",
+      "source_span": "Auto-polymerisation of styrene is an exothermic reaction. Once initiated above ~30\u00b0C, the reaction is self-accelerating.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "TBC inhibitor loses effectiveness at temperatures above 52\u00b0C.",
+      "source_span": "At temperatures above 52\u00b0C, TBC inhibitor loses effectiveness.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The heat of polymerisation is approximately 660 kJ/kg and can cause a runaway feedback loop.",
+      "source_span": "The heat of polymerisation (approximately 660 kJ/kg) will further raise tank temperature in a runaway feedback loop.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Each tank must have at least one calibrated RTD probe installed at mid-level.",
+      "source_span": "At least one calibrated RTD (resistance temperature detector) probe must be installed at mid-level on each tank.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The warning alarm is set at 18\u00b0C.",
+      "source_span": "Warning alarm: 18\u00b0C",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The critical alarm is set at 25\u00b0C.",
+      "source_span": "Critical alarm: 25\u00b0C",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The emergency shutdown trigger is set at 30\u00b0C.",
+      "source_span": "Emergency shutdown trigger: 30\u00b0C",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "If the alarm system is offline, manual temperature readings must be recorded every 4 hours.",
+      "source_span": "If the alarm system is offline for any reason, manual temperature readings must be recorded every 4 hours and initialled by a qualified operator.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Before re-commissioning after a shutdown >14 days, sample liquid from top and bottom for TBC and effectiveness testing.",
+      "source_span": "(a) Sample liquid styrene from top and bottom of tank for TBC concentration and inhibitor effectiveness testing.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Before re-commissioning after a shutdown >14 days, check dissolved oxygen at three depths.",
+      "source_span": "(b) Check dissolved oxygen at three depths.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Before re-commissioning after a shutdown >14 days, verify chiller brine flow rate before starting transfer pumps.",
+      "source_span": "(c) Verify chiller brine flow rate before starting transfer pumps.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Do not initiate transfers until temperature is confirmed to be \u226418\u00b0C.",
+      "source_span": "(d) Do not initiate transfers until temperature \u226418\u00b0C is confirmed.",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-PTW-004": [
+    {
+      "fact_type": "PERMIT_STATUS",
+      "asset_ids": [
+        "CHR-01",
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": "2020-01-14T00:00:00",
+      "content": "Permit PTW-2020-0189 was issued for work on Brine Chiller Unit CHR-01.",
+      "source_span": "PERMIT NUMBER: PTW-2020-0189\nDATE ISSUED: 2020-01-14",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "CHR-01"
+      ],
+      "timestamp": "2020-01-14T08:00:00",
+      "content": "Replacement of chiller compressor drive belt and coolant pump seal inspection was scheduled.",
+      "source_span": "Replacement of chiller compressor drive belt and\n                   coolant pump seal inspection.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Styrene tank temperatures must be less than or equal to 18 degrees Celsius before chiller shutdown.",
+      "source_span": "Styrene tank temperatures must be \u226418\u00b0C before chiller shutdown begins.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "CHR-01"
+      ],
+      "timestamp": "2020-01-16T11:30:00",
+      "content": "Work was completed and the pump seal was replaced with an OEM part.",
+      "source_span": "Work completed: 2020-01-16 11:30\n[ \u2713] Recommissioning flow test: 18.2 m\u00b3/h \u2014 PASS\n\"Pump seal found worn; replaced with OEM part.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "QUALITY_READING",
+      "asset_ids": [
+        "CHR-01"
+      ],
+      "timestamp": "2020-01-16T11:30:00",
+      "content": "Recommissioning flow test resulted in a reading of 18.2 m\u00b3/h, which passed.",
+      "source_span": "Recommissioning flow test: 18.2 m\u00b3/h \u2014 PASS",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "CHR-01"
+      ],
+      "timestamp": "2020-04-01",
+      "content": "Seal inspection was deferred to the next scheduled PM in April 2020.",
+      "source_span": "Recommend seal inspection at next scheduled PM (April 2020).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "FT-11",
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Flow sensor FT-11 on the ST-11 loop is providing erratic readings.",
+      "source_span": "Flow sensor FT-11 on ST-11 loop reading erratic.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "FT-11"
+      ],
+      "timestamp": null,
+      "content": "Recalibration of flow sensor FT-11 was deferred as it was only logged to the instrument workshop without a date.",
+      "source_span": "May need recalibration. \n Logged to instrument workshop \u2014 no date assigned.",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-SHIFT-005": [
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [
+        "ST-09",
+        "ST-10",
+        "ST-11"
+      ],
+      "timestamp": "2020-03-27T23:15:00",
+      "content": "External perimeter was clear and tanks ST-09, ST-10, and ST-11 showed no visible vapour or odour.",
+      "source_span": "23:15 \u2014 External perimeter clear. Tanks ST-09, ST-10, ST-11 visually observed; no vapour visible. No odour.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": "2021-03-27T01:00:00",
+      "content": "Internal walkthrough completed with no anomalies noted.",
+      "source_span": "01:00 \u2014 Internal walkthrough. No anomalies.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-03-27T03:00:00",
+      "content": "A slight musty/chemical odour was noted near tank ST-11, but it was not reported to the supervisor.",
+      "source_span": "03:00 \u2014 Walkthrough. ST-11 area: noted slight musty/chemical odour. Not identified as styrene (guard not trained in chemical ID). No alarm triggered; smell dissipated after 5 minutes. NOTE: Not reported to on-call supervisor.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "ST-11",
+        "FT-11"
+      ],
+      "timestamp": "2020-03-27T03:00:00",
+      "content": "ST-11 RTD and chiller flow sensor FT-11 were showing FAULT/no reading.",
+      "source_span": "ST-11 Temp | FAULT (ST-11 RTD and chiller flow sensor FT-11 showing FAULT/no reading)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "CHR-01"
+      ],
+      "timestamp": "2020-03-27T03:00:00",
+      "content": "CHR-01 flow sensor was showing a FAULT reading.",
+      "source_span": "CHR-01 Flow | FAULT",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "TEMPERATURE_READING",
+      "asset_ids": [
+        "ST-09"
+      ],
+      "timestamp": "2020-03-27T03:00:00",
+      "content": "The temperature for ST-09 was recorded at 17.1\u00b0C.",
+      "source_span": "ST-09 Temp | 17.1\u00b0C",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "TEMPERATURE_READING",
+      "asset_ids": [
+        "ST-10"
+      ],
+      "timestamp": "2020-03-27T03:00:00",
+      "content": "The temperature for ST-10 was recorded at 17.6\u00b0C.",
+      "source_span": "ST-10 Temp | 17.6\u00b0C",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [],
+      "timestamp": "2020-03-27T03:00:00",
+      "content": "No emergency number was posted at the operator panel.",
+      "source_span": "No emergency number posted at the panel.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [],
+      "timestamp": "2020-03-27T03:00:00",
+      "content": "The guard failed to report a chemical odour and instrument faults to the supervisor.",
+      "source_span": "NOTE: Not reported to on-call supervisor. Guard M. Naidu noted the FAULT reading on the panel at 03:00 but did not know the significance.",
+      "confidence": 0.9
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": "2020-03-27T05:00:00",
+      "content": "Walkthrough completed with no odour and tank area clear.",
+      "source_span": "05:00 \u2014 Walkthrough. No odour. Tank area clear.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": "2020-03-28T07:00:00",
+      "content": "Day shift handover reported no incidents.",
+      "source_span": "07:00 \u2014 Day shift handover. Outgoing report: \"No incidents.\"",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [],
+      "timestamp": "2020-03-28T07:00:00",
+      "content": "Day shift failed to review instrument logs upon arrival.",
+      "source_span": "Day shift (assigned to admin check-in only during lockdown) did not review instrument logs on arrival.",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-SHIFT-006": [
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "Performed weekly walkthrough per lockdown skeleton-crew protocol.",
+      "source_span": "Performed weekly walkthrough per lockdown skeleton-crew protocol.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "Visually inspected tank farm and noted minor condensation on ST-11 relief vent.",
+      "source_span": "Visually inspected tank farm. ST-11 relief vent showed minor condensation.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "RTD-11"
+      ],
+      "timestamp": "2020-03-27",
+      "content": "Temperature sensor RTD-11 on tank ST-11 has been displaying a FAULT since 2020-03-27.",
+      "source_span": "Attempted to read ST-11 temperature sensor RTD-11: display showing FAULT since approximately 2020-03-27 (see prior logs).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "RTD-11"
+      ],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "Attempted to reset the RTD-11 sensor but the fault persisted.",
+      "source_span": "Attempted reset \u2014 no change.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "RTD-11"
+      ],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "Recalibration of RTD-11 was deferred because the instrument team is on leave due to lockdown.",
+      "source_span": "Instrument team still not available to recalibrate (team on leave / lockdown).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "TEMPERATURE_READING",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "Estimated temperature of ST-11 shell is 29\u201332\u00b0C using a portable infrared thermometer.",
+      "source_span": "Estimated ST-11 temperature using portable infrared thermometer on tank exterior shell: ~29\u201332\u00b0C",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "The estimated temperature of ST-11 exceeds the OEM limit of 20\u00b0C specified in Section 4.7.2.",
+      "source_span": "This is ABOVE the 20\u00b0C limit specified in OEM Section 4.7.2.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "Supervisor K. Srinivas instructed to continue monitoring despite the temperature exceedance.",
+      "source_span": "\"Not much we can do right now. Keep monitoring. The tank has TBC in it, it should be fine for another few weeks.\"",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "No formal incident report was raised regarding the temperature exceedance.",
+      "source_span": "No formal incident report raised.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "WORK_ORDER",
+      "asset_ids": [],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "No work order was issued for an emergency chiller check.",
+      "source_span": "No work order for emergency chiller check.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INHIBITOR_DOSING",
+      "asset_ids": [],
+      "timestamp": "2020-04-18",
+      "content": "The inhibitor top-up was due on 2020-04-18.",
+      "source_span": "Inhibitor top-up due date was 2020-04-18",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "Inhibitor refill was deferred because the drum is empty and requisition PUR-2020-0412 remains unfulfilled.",
+      "source_span": "Inhibitor drum confirmed empty \u2014 refill requisition PUR-2020-0412 from March not yet fulfilled.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": "2020-04-19T07:00:00",
+      "content": "No escalation to procurement was made regarding the unfulfilled inhibitor requisition.",
+      "source_span": "No escalation to procurement.",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-SHIFT-007": [
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": "2020-05-06T23:00:00",
+      "content": "Normal handover from evening guard with no anomalies reported.",
+      "source_span": "23:00 \u2014 Normal handover from evening guard. No anomalies reported.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-05-07T01:45:00",
+      "content": "Strong pungent/sweet odour detected near ST-11, described as smelling like paint thinner.",
+      "source_span": "STRONG pungent/sweet odour detected near ST-11.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [],
+      "timestamp": "2020-05-07T01:45:00",
+      "content": "Emergency contact list on wall was outdated, with disconnected phone numbers for the on-call engineer.",
+      "source_span": "Emergency contact list on wall last updated 2019 \u2014 phone numbers for on-call engineer disconnected.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-05-07T02:00:00",
+      "content": "Odour near ST-11 became significantly stronger, causing eye irritation and light-headedness.",
+      "source_span": "02:00 \u2014 Guard re-entered tank farm: odour significantly stronger. Eyes watering, light-headedness reported.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [],
+      "timestamp": "2020-05-07T02:00:00",
+      "content": "The guard failed to activate the plant-wide alarm due to being unaware of the alarm location.",
+      "source_span": "Did not activate plant-wide alarm (guard unaware of location).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-05-07T02:30:00",
+      "content": "A vapour cloud was observed rolling out from the ST-11 secondary containment bund.",
+      "source_span": "02:30 \u2014 Vapour cloud visible rolling out from ST-11 secondary containment bund.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [],
+      "timestamp": "2020-05-07T02:30:00",
+      "content": "The guard called the police but failed to call the fire department.",
+      "source_span": "Guard called 100 (police). Did not call 101 (fire).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [],
+      "timestamp": "2020-05-07T02:30:00",
+      "content": "The plant PA system was not activated during the incident.",
+      "source_span": "Plant PA system not activated.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [],
+      "timestamp": "2020-05-07T03:10:00",
+      "content": "Fire brigade arrived and evacuation of the surrounding area commenced.",
+      "source_span": "03:10 \u2014 Fire brigade arrival. Evacuation of surrounding area begins.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [],
+      "timestamp": "2020-05-07T02:40:00",
+      "content": "Instrument panel power cut due to vapour encroachment, resulting in all displays showing FAULT.",
+      "source_span": "panel power cut at 02:40 due to vapour encroachment.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "ST-11 temperature likely reached \u226560\u00b0C prior to the vent opening.",
+      "source_span": "ST-11 temperature had likely reached \u226560\u00b0C prior to vent opening",
+      "confidence": 0.9
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-05-07T01:00:00",
+      "content": "Early-stage styrene vapour release occurred through the pressure-relief vent.",
+      "source_span": "odour noted at 01:45 was consistent with early-stage styrene vapour release through the pressure-relief vent",
+      "confidence": 0.9
+    }
+  ],
+  "LGP-PERMIT-008": [
+    {
+      "fact_type": "PERMIT_STATUS",
+      "asset_ids": [],
+      "timestamp": "2015-08-01",
+      "content": "Environmental Clearance/Operating Permit EC-AP-CHEM-2015-0047 is valid from 2015-08-01 until 2020-07-31.",
+      "source_span": "VALID FROM: 2015-08-01\nVALID UNTIL: 2020-07-31",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [],
+      "timestamp": "2018-04-01",
+      "content": "A community mock drill was conducted within a 0.5 km radius.",
+      "source_span": "Last recorded drill: April 2018.",
+      "confidence": 0.9
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-09-01",
+      "content": "ST-11 lacks the required RTD installation for automated temperature monitoring.",
+      "source_span": "ST-11 RTD installation pending contractor availability.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-09-12",
+      "content": "Temperature monitoring installation for ST-11 was deferred due to contractor availability.",
+      "source_span": "ST-11 RTD installation pending contractor availability.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-09-12",
+      "content": "ST-11 temperature monitoring has not been installed despite requirements.",
+      "source_span": "ST-11 temperature monitoring still not installed.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The colony boundary is located within 180m of tank ST-11, violating the 500m exclusion zone requirement for new construction.",
+      "source_span": "Colony boundary currently within 180m of tank ST-11.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PERMIT_STATUS",
+      "asset_ids": [],
+      "timestamp": "2020-06-05",
+      "content": "Renewal application EC-RENEW-2020-0112 was submitted and is currently in process under a deemed renewal clause.",
+      "source_span": "Renewal application REF: EC-RENEW-2020-0112 submitted 2020-06-05.\nSTATUS: Application in process. Facility continued operation under \"deemed renewal\" clause pending SPCB review.",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-AUDIT-017": [
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-12-31",
+      "content": "Automated temperature monitoring for Tank ST-11 was deferred until 2019-12-31 due to awaiting equipment delivery from contractor XYZ Instruments.",
+      "source_span": "Deadline given to management: 2019-12-31. (Previous deadline was 2018-06-30.) Management response: \"Work order placed with contractor XYZ Instruments. Awaiting equipment delivery. Request 3-month extension.\"",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PERMIT_STATUS",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2017-01-01",
+      "content": "Tank ST-11 is non-compliant with Permit Condition 3.4 which requires an RTD with remote alarm.",
+      "source_span": "Permit Condition 3.4 requires RTD with remote alarm by 2017. Status: NON-COMPLIANT.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "FT-11"
+      ],
+      "timestamp": null,
+      "content": "Flow transmitter FT-11 in the chiller circuit/ST-11 loop is reading erratically.",
+      "source_span": "Flow transmitter FT-11 (chiller circuit, ST-11 loop) reads erratically.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INHIBITOR_DOSING",
+      "asset_ids": [],
+      "timestamp": "2019-10-03",
+      "content": "There is no confirmation of TBC inhibitor dosing conducted between April and October 2019.",
+      "source_span": "No confirmation of dosing conducted April\u2013October 2019.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DISSOLVED_OXYGEN_READING",
+      "asset_ids": [],
+      "timestamp": "2019-01-01",
+      "content": "No dissolved oxygen monitoring records were found for the year 2019.",
+      "source_span": "No dissolved oxygen monitoring records found for 2019.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [],
+      "timestamp": "2018-04-01",
+      "content": "The community mock drill is overdue by 18 months against the annual requirement.",
+      "source_span": "Community mock drill last conducted April 2018 \u2014 overdue by 18 months against Condition 3.1 requirement (annual).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [],
+      "timestamp": "2018-02-01",
+      "content": "The emergency contact list on the control room wall has not been updated since February 2018 and contains disconnected numbers.",
+      "source_span": "Emergency contact list on control room wall: last updated February 2018. Four phone numbers confirmed disconnected by inspector.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": null,
+      "content": "No trained operator is rostered to activate the public address system during security-only shifts.",
+      "source_span": "However, no trained operator rostered to activate it during security-only shifts (night and weekend).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": null,
+      "content": "The single guard on duty is unaware of the public address system procedure.",
+      "source_span": "Single guard on duty unaware of PA procedure.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [],
+      "timestamp": null,
+      "content": "The facility has 4 major non-compliant items including issues with ST-11 monitoring, inhibitor dosing, and emergency drills/contacts.",
+      "source_span": "Items NON-COMPLIANT (major): 4/14 (Findings 1.1, 2.1, 3.1, 3.2)",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-INCIDENT-019": [
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-07-14T14:45:00",
+      "content": "Shift Engineer D. Prasad observed the temperature display for Tank ST-11 reading 27.3\u00b0C, which is above the acceptable limit of 20\u00b0C.",
+      "source_span": "At 14:45, during routine tank farm walkthrough, Shift Engineer D. Prasad noticed that the temperature display for Tank ST-11 on the main control panel was reading 27.3\u00b0C \u2014 above the acceptable limit of 20\u00b0C.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-07-14T14:45:00",
+      "content": "The temperature of Tank ST-11 was 27.3\u00b0C.",
+      "source_span": "the temperature display for Tank ST-11 on the main control panel was reading 27.3\u00b0C",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-07-14T14:45:00",
+      "content": "A chiller system partial flow restriction occurred due to a partially blocked brine strainer.",
+      "source_span": "corresponding to a chiller system partial flow restriction (brine strainer partially blocked)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The temperature alarm failed to trigger because the alarm relay contacts were corroded.",
+      "source_span": "However: The temperature alarm (setpoint 18\u00b0C warning, 25\u00b0C critical) had NOT triggered despite the 27.3\u00b0C reading. Investigation found the alarm relay contacts corroded.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-07-14",
+      "content": "The brine strainer was cleaned.",
+      "source_span": "Brine strainer cleaned. [DONE, 2019-07-14]",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2019-07-16",
+      "content": "The alarm relay was replaced.",
+      "source_span": "Alarm relay replaced. [DONE, 2019-07-16]",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Adding a second independent high-temp alarm on ST-11 was deferred because the site engineer stated one alarm should be sufficient.",
+      "source_span": "Recommended: add second independent high-temp alarm on ST-11. [NOT DONE \u2014 deferred per site engineer response: \"one alarm should be sufficient.\"]",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [],
+      "timestamp": null,
+      "content": "A monthly alarm function test for all tank farm instruments was not implemented because no procedure or schedule was created.",
+      "source_span": "Recommended: monthly alarm function test for all tank farm instruments. [NOT DONE \u2014 no procedure created, no schedule set.]",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": null,
+      "content": "No entry was made in the risk register because the process engineer decided the low-severity near-miss did not warrant it.",
+      "source_span": "RISK REGISTER ENTRY: Not made (incident classified as low-severity near-miss; process engineer decided risk register entry not warranted).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The incident was not cross-referenced to a previous finding regarding a flow sensor anomaly on the same tank.",
+      "source_span": "No cross-reference made to Finding 1.2 in the 2019 DISH audit (FT-11 flow sensor anomaly on same tank) \u2014 these two separate anomaly records on the same critical asset were never connected.",
+      "confidence": 1.0
+    }
+  ],
+  "LGP-020": [
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-05-06T06:00:00+05:30",
+      "content": "A critical temperature anomaly was detected in Styrene Tank ST-11.",
+      "source_span": "critical temperature anomaly detected in Styrene Tank ST-11",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-05-06T06:00:00+05:30",
+      "content": "The temperature reading for ST-11 was 18\u00b0C, which is outside the normal operating range of 5-15\u00b0C.",
+      "source_span": "Temperature Reading: 18\u00b0C (normal operating range: 5-15\u00b0C)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": "2020-05-06T08:15:30+05:30",
+      "content": "Emergency shutdown was initiated and the chilled brine system was activated.",
+      "source_span": "Emergency shutdown initiated\n2. Chilled brine system activated for temperature control",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "Possible failure in the temperature monitoring system for ST-11.",
+      "source_span": "Possible failure in temperature monitoring system",
+      "confidence": 0.9
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "ST-11"
+      ],
+      "timestamp": null,
+      "content": "The inhibitor top-up schedule for ST-11 may have been missed.",
+      "source_span": "Inhibitor top-up schedule may have been missed",
+      "confidence": 0.9
+    },
+    {
+      "fact_type": "PERMIT_STATUS",
+      "asset_ids": [],
+      "timestamp": "2025-12-31",
+      "content": "Environmental Clearance is valid until 31 Dec 2025.",
+      "source_span": "Environmental Clearance: Valid until 31 Dec 2025",
+      "confidence": 1.0
+    }
+  ],
+  "VSP-MAINT-009": [
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-04-14T06:00:00",
+      "content": "The purge lance tip was replaced and wear was found to be within tolerance.",
+      "source_span": "lance tip replaced; wear within tolerance",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-04-14T06:00:00",
+      "content": "The argon supply manifold pressure was measured at 6.8 bar, which is nominal.",
+      "source_span": "Argon supply manifold pressure check: 6.8 bar \u2014 nominal",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "FCV-APS3"
+      ],
+      "timestamp": "2025-04-14T06:00:00",
+      "content": "Flow control valve FCV-APS3 was tested and is responding to PLC commands.",
+      "source_span": "Flow control valve FCV-APS3: tested \u2014 responding to PLC commands",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "APS-3",
+        "LF-3"
+      ],
+      "timestamp": "2025-04-14T06:00:00",
+      "content": "The purging duration calibration test was bypassed because LF-3 was occupied with heat #1147.",
+      "source_span": "BYPASSED \u2014 Purging duration calibration test: LF-3 was occupied with heat #1147; calibration deferred.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-04-14T06:00:00",
+      "content": "The lance insertion depth gauge verification was bypassed because the calibration tool was unavailable.",
+      "source_span": "BYPASSED \u2014 Lance insertion depth gauge verification: calibration tool unavailable (on loan to SMS-2). Not rescheduled.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-04-14T06:00:00",
+      "content": "The APS-3 flow controller is providing inconsistent flow readings, fluctuating between 18 and 32 NL/min against a setpoint of 25 NL/min.",
+      "source_span": "APS-3 flow controller giving inconsistent flow readings over last 2\u20133 heats \u2014 fluctuating between 18 and 32 NL/min against setpoint of 25 NL/min.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-04-14T06:00:00",
+      "content": "The technician reported the flow controller inconsistency verbally to the supervisor without raising a work order.",
+      "source_span": "Reported verbally to shift supervisor. No work order raised.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "Incomplete purging can lead to gas pockets within the melt.",
+      "source_span": "Under-purging or incomplete purging can leave gas pockets within the melt.",
+      "confidence": 0.9
+    }
+  ],
+  "VSP-SHIFT-010": [
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": "2025-05-08T17:45:00",
+      "content": "Heat #1189 in Ladle LF-3 reached a tap temperature of 1,621\u00b0C.",
+      "source_span": "Tap temperature: 1,621\u00b0C",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "APS-3 flow controller is unresponsive, causing argon purge to be skipped for Heat #1189.",
+      "source_span": "Argon purge: SKIPPED \u2014 Reason: APS-3 flow controller unresponsive.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "WORK_ORDER",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "Work order WO-SMS-1-2025-0331 was raised for the APS-3 unit.",
+      "source_span": "Work order raised (WO-SMS-1-2025-0331)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "Maintenance for APS-3 was deferred because the work order has not yet been assigned to a maintenance crew.",
+      "source_span": "WO-SMS-1-2025-0331 not yet assigned to maintenance crew.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "APS-3 has been non-operational or intermittent for 6 shifts.",
+      "source_span": "APS-3 has been non-operational or intermittent for 6 shifts.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "Heats #1189 and #1191 were processed without argon purge, and the decision was not entered in the risk register.",
+      "source_span": "Both heats (#1189, #1191) processed without argon purge.... No entry in the risk register for this decision.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "The Caster-1 team was not explicitly notified regarding the omission of the argon purge.",
+      "source_span": "Downstream Caster-1 team not explicitly notified of purge omission.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "Skipping the purge may lead to trapped hydrogen/argon gas pockets and non-homogenized temperature gradients.",
+      "source_span": "Without purge, trapped hydrogen/argon gas pockets possible; temperature gradient within ladle not homogenised.",
+      "confidence": 1.0
+    }
+  ],
+  "VSP-SHIFT-011": [
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "Purge was skipped for heat numbers 1189 and 1191 on APS-3/LF-3.",
+      "source_span": "2025-05-08  | 1189, 1191     | SKIPPED x2      | P. Misra",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-10T00:00:00",
+      "content": "Purge was skipped for heat number 1197 on APS-3/LF-3.",
+      "source_span": "2025-05-10  | 1197           | SKIPPED       | P. Misra",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-13T00:00:00",
+      "content": "Purge was skipped for heat numbers 1204 and 1206 on APS-3/LF-3.",
+      "source_span": "2025-05-13  | 1204, 1206     | SKIPPED x2      | T. Rao (relief)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-16T00:00:00",
+      "content": "Purge was skipped for heat number 1211 on APS-3/LF-3.",
+      "source_span": "2025-05-16  | 1211           | SKIPPED       | P. Misra",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-19T00:00:00",
+      "content": "Purge was skipped for heat numbers 1219 and 1221 on APS-3/LF-3.",
+      "source_span": "2025-05-19  | 1219, 1221     | SKIPPED x2      | T. Rao (relief)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-22T00:00:00",
+      "content": "Purge was only partially completed for 8 minutes on APS-3/LF-3.",
+      "source_span": "2025-05-22  | 1228           | PARTIAL (8min)| P. Misra (APS-3 partial fix)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-26T00:00:00",
+      "content": "Purge was skipped for heat numbers 1235 and 1237 on APS-3/LF-3.",
+      "source_span": "2025-05-26  | 1235, 1237     | SKIPPED x2      | T. Rao (relief)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "Caster-1"
+      ],
+      "timestamp": "2025-05-29T00:00:00",
+      "content": "Purge was skipped for heat number 1242 on APS-3/LF-3.",
+      "source_span": "2025-05-29  | 1242           | SKIPPED       | T. Rao (relief)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "WORK_ORDER",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": null,
+      "content": "Work order WO-SMS-1-2025-0331 is open and assigned to maintenance backlog.",
+      "source_span": "WO-SMS-1-2025-0331 status: OPEN, assigned to maintenance backlog.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": null,
+      "content": "Maintenance for WO-SMS-1-2025-0331 is deferred awaiting an FCV spare part from the vendor.",
+      "source_span": "Estimated completion: \"TBD \u2014 awaiting FCV spare part from vendor.\"",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "QUALITY_READING",
+      "asset_ids": [
+        "COB-3"
+      ],
+      "timestamp": null,
+      "content": "Coke oven battery COB-3 has been producing variable coke quality with slightly elevated sulphur.",
+      "source_span": "coke oven battery COB-3 has been giving variable coke quality this month (sulphur slightly elevated per QC report QC-COB-2025-0318)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "APS-3",
+        "LF-3",
+        "COB-3"
+      ],
+      "timestamp": null,
+      "content": "Lack of degassing due to purge omissions compounds the risk of stressed melt composition from variable coke quality.",
+      "source_span": "If melt composition already stressed, lack of degassing is a compounding risk.",
+      "confidence": 0.95
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [],
+      "timestamp": null,
+      "content": "The Section Manager has not provided a documented response to the supervisor's risk flag.",
+      "source_span": "SECTION MANAGER ACTION: No documented response to this note.",
+      "confidence": 1.0
+    }
+  ],
+  "VSP-MAINT-012": [
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "Oven #18"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "A temporary ceramic patch was applied to a moderate refractory crack in Oven #18.",
+      "source_span": "Oven #18:  Refractory crack detected \u2014 length ~420mm, Severity: MODERATE.           Temporary ceramic patch applied.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "Oven #18"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "Full reline of Oven #18 is deferred for 60 days due to the moderate severity of the refractory crack.",
+      "source_span": "Recommend full reline within 60 days.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "Oven #23"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "A partial heating flue blockage in Oven #23 was cleared using a jet rod.",
+      "source_span": "Oven #23:  Heating flue blockage \u2014 partial.           Cleared with jet rod.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [
+        "Oven #23"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "The blockage in Oven #23 was caused by coal fines from supplier COALSUPPLY-B.",
+      "source_span": "Root cause: coal fines from recent batch (supplier COALSUPPLY-B).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "Oven #31"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "A minor refractory crack was detected in Oven #31 and marked for monitoring.",
+      "source_span": "Oven #31:  Refractory crack \u2014 length ~210mm, Severity: MINOR. Monitor.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "TEMPERATURE_READING",
+      "asset_ids": [
+        "Oven #51"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "The oven crown temperature in Oven #51 was 40\u00b0C below the setpoint due to a clogged regenerator.",
+      "source_span": "Oven #51:  Temperature deviation noted \u2014 oven crown temperature 40\u00b0C below           setpoint. Cause: clogged regenerator.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "Oven #51"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "The clogged regenerator in Oven #51 was cleaned to recover temperature.",
+      "source_span": "Cleaned. Temperature recovering.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "COB-3"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "The coal blend ratio was shifted to 40% COALSUPPLY-B, exceeding the standard 25%.",
+      "source_span": "Current blend ratio shifted to 40% COALSUPPLY-B (cheaper import coal) vs           standard 25%.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "QUALITY_READING",
+      "asset_ids": [
+        "COALSUPPLY-B"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "COALSUPPLY-B has an ash content of 9.2%, which is higher than the 8.0% specification.",
+      "source_span": "Ash content of COALSUPPLY-B higher than spec (9.2% vs 8.0% spec).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "COB-3"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "The use of COALSUPPLY-B is expected to result in higher sulphur and lower CSR in the coke.",
+      "source_span": "Impact on coke quality: expect slightly higher sulphur and lower CSR (Coke Strength after Reaction).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "SMS-1"
+      ],
+      "timestamp": "2025-04-02T06:00:00",
+      "content": "No formal cross-divisional alert was issued to SMS-1 regarding the increased sulphur risk.",
+      "source_span": "No formal cross-divisional alert issued to SMS-1.",
+      "confidence": 1.0
+    }
+  ],
+  "VSP-OEM-013": [
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "Argon purging duration should be between 15 and 25 minutes depending on the grade.",
+      "source_span": "Duration: 15\u201325 minutes (grade-dependent; refer Appendix B)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "The argon flow rate must be set between 20 and 35 NL/min using the FCV-APS controller.",
+      "source_span": "Flow rate: 20\u201335 NL/min (set via FCV-APS controller)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "The lance insertion depth must be 800mm \u00b1 50mm from the ladle base.",
+      "source_span": "Lance insertion depth: 800mm \u00b1 50mm from ladle base",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "Failure to eliminate gas pockets creates a risk of sudden volumetric gas expansion during mechanical agitation.",
+      "source_span": "Failure to eliminate such pockets creates risk of sudden volumetric gas expansion if mechanical agitation (e.g., ladle rotation, tilt, or slide gate opening) disturbs the pocket at a later stage.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "A Type-3 explosion event involves rapid gas pocket expansion during ladle rotation or slide-gate activation, risking ladle tipover and hot metal spill.",
+      "source_span": "Failure to observe this precaution risks a Type-3 explosion event: rapid gas pocket expansion during ladle rotation or slide-gate activation at the casting platform, with risk of ladle tipover and catastrophic hot metal spill.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "FCV-APS"
+      ],
+      "timestamp": null,
+      "content": "The FCV controller is identified as a component of the argon purge system that may be found defective.",
+      "source_span": "If the argon purge system (lance, FCV controller, or gas supply) is found defective during a heat sequence",
+      "confidence": 0.9
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "Defective argon purge systems must be escalated to the SMS Superintendent immediately.",
+      "source_span": "the defect MUST be escalated to the SMS Superintendent immediately.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PERMIT_STATUS",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "Processing heat without purging is only permitted with written Superintendent sign-off for a single heat.",
+      "source_span": "Heat processing without purging is permitted ONLY with written Superintendent sign-off and only for a single heat.",
+      "confidence": 1.0
+    }
+  ],
+  "VSP-PTW-014": [
+    {
+      "fact_type": "PERMIT_STATUS",
+      "asset_ids": [
+        "LF-3",
+        "LD-003"
+      ],
+      "timestamp": "2025-03-10",
+      "content": "Permit PTW-SMS1-2025-0204 was issued for refractory lining inspection and partial patch repair on ladle LD-003.",
+      "source_span": "PERMIT NUMBER: PTW-SMS1-2025-0204\nDATE ISSUED: 2025-03-10\nVALID UNTIL: 2025-03-12\nWORK DESCRIPTION: Refractory lining inspection and partial patch repair,\n                   ladle LD-003 (LF-3 service ladle).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-03-10",
+      "content": "The ladle must be cooled to an ambient temperature of 50\u00b0C or less before entry.",
+      "source_span": "Cool ladle to ambient and confirm temperature \u226450\u00b0C before entry.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "QUALITY_READING",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-03-10",
+      "content": "Zone A (ladle base) thickness was measured at 96mm, which is within spec but borderline.",
+      "source_span": "Zone A (ladle base, bottom lining): thickness 96mm \u2014 within spec, borderline.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "QUALITY_READING",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-03-10",
+      "content": "Zone B (ladle barrel) thickness was measured at 88mm, which is below the standard limit.",
+      "source_span": "Zone B (ladle barrel, 1/3 height): thickness 88mm \u2014 below standard limit.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-03-10",
+      "content": "Zone B was patched using Refcoat-X700 high-alumina castable.",
+      "source_span": "Patched with Refcoat-X700 high-alumina castable.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "QUALITY_READING",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-03-10",
+      "content": "Zone C (ladle barrel, upper taper) thickness was measured at 104mm.",
+      "source_span": "Zone C (ladle barrel, upper taper): thickness 104mm \u2014 OK.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-03-10",
+      "content": "Wear was noted at the slide gate seat ring.",
+      "source_span": "Slide gate seat area: wear noted at seat ring.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-03-10",
+      "content": "Full relining of Zone A is deferred until 2025-04-10.",
+      "source_span": "Schedule full relining within 4 weeks (i.e., by 2025-04-10).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-03-14",
+      "content": "Slide gate seat ring replacement was deferred because parts are in procurement.",
+      "source_span": "Slide gate seat ring: Not replaced. Parts in procurement since 2025-03-14.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "WORK_ORDER",
+      "asset_ids": [
+        "LD-003"
+      ],
+      "timestamp": "2025-06-01",
+      "content": "Work Order WO-SMS1-2025-0227 for Zone A relining is open and not started due to material backorder.",
+      "source_span": "Zone A relining: Work Order WO-SMS1-2025-0227 raised.\n  Status as of 2025-06-01: OPEN / NOT STARTED \u2014 material on backorder.",
+      "confidence": 1.0
+    }
+  ],
+  "VSP-SHIFT-015": [
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-06-06T14:00:00",
+      "content": "APS-3 status is still faulty with an open work order for 4 weeks.",
+      "source_span": "APS-3 status: STILL FAULTY (WO open for 4 weeks)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-06-06T14:00:00",
+      "content": "Purge was skipped on heat #1242 due to APS-3 fault.",
+      "source_span": "Morning shift log noted \"purge skipped again on heat #1242.\"",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-06-06T14:00:00",
+      "content": "No formal risk review was completed for the accumulated skips caused by the APS-3 fault.",
+      "source_span": "No formal risk review completed for accumulated skips.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": "2025-06-06T15:30:00",
+      "content": "Ladle LF-3 was tapped from EAF at 1,618\u00b0C with a weight of 148 tonnes.",
+      "source_span": "Ladle LF-3 tapped from EAF at 1,618\u00b0C, 148 tonnes.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SAFETY_VIOLATION",
+      "asset_ids": [
+        "LF-3",
+        "APS-3"
+      ],
+      "timestamp": "2025-06-06T15:30:00",
+      "content": "Argon purge was skipped for heat #1244 due to APS-3 fault without superintendent sign-off or OEM 7.4.3 holding check.",
+      "source_span": "Argon purge: SKIPPED (APS-3 fault, no superintendent sign-off, no 15-minute holding check per OEM 7.4.3",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [
+        "CRANE-07",
+        "LD-003"
+      ],
+      "timestamp": "2025-06-06T16:12:00",
+      "content": "A sudden explosion occurred during ladle rotation, causing ladle LD-003 to tip and spill 148 tonnes of liquid steel.",
+      "source_span": "During rotation, SUDDEN EXPLOSION. \"Like a cannon.\" \u2014 Witness W. Kumar. Ladle LD-003 tipped. Approximately 148 tonnes of liquid steel at ~1,600\u00b0C poured onto shop floor.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [
+        "CRANE-07"
+      ],
+      "timestamp": "2025-06-06T16:12:00",
+      "content": "Crane CRANE-07 reported simultaneous cable/brake failure during the explosion.",
+      "source_span": "Crane CRANE-07 reported cable/brake failure simultaneously (under investigation \u2014 causal vs consequential).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [],
+      "timestamp": "2025-06-06T16:12:00",
+      "content": "Eight persons were confirmed caught in the spill radius during the incident.",
+      "source_span": "8 persons confirmed caught in spill radius.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [],
+      "timestamp": "2025-06-06T16:15:00",
+      "content": "Plant emergency alarm was manually activated by W. Kumar.",
+      "source_span": "16:15 \u2014 Plant emergency alarm activated (by W. Kumar, manually).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "LF-3"
+      ],
+      "timestamp": null,
+      "content": "Ladle LD-003 Zone A lining has been borderline since March.",
+      "source_span": "Ladle LD-003 Zone A lining borderline since March (see VSP-PTW-014)",
+      "confidence": 0.9
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": null,
+      "content": "Maintenance on APS-3 has been deferred with an open work order for over 4 weeks.",
+      "source_span": "APS-3 fault open for 4+ weeks (see VSP-MAINT-009, VSP-SHIFT-010)",
+      "confidence": 1.0
+    }
+  ],
+  "VSP-QC-016": [],
+  "VSP-WO-018": [
+    {
+      "fact_type": "WORK_ORDER",
+      "asset_ids": [
+        "APS-3",
+        "FCV-APS3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "Work order WO-SMS1-2025-0331 was raised for the Argon Purging Station APS-3 Flow Control Valve FCV-APS3.",
+      "source_span": "WORK ORDER NUMBER: WO-SMS1-2025-0331\nASSET: Argon Purging Station APS-3, Flow Control Valve FCV-APS3",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INSTRUMENT_FAULT",
+      "asset_ids": [
+        "FCV-APS3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "FCV-APS3 is providing erratic output with flow fluctuating between 18\u201332 NL/min against a 25 NL/min setpoint.",
+      "source_span": "FCV-APS3 (argon flow control valve, APS-3 unit) giving erratic output. Setpoint 25 NL/min; actual flow fluctuating 18\u201332 NL/min and occasionally dropping to zero without alarm.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "FCV-APS3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "The flow control valve deviation is 3\u20134 times the OEM specified tolerance of \u00b12 NL/min.",
+      "source_span": "OEM specifies \u00b12 NL/min control tolerance; current deviation 3\u20134\u00d7.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "SHIFT_OBSERVATION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-05-08T00:00:00",
+      "content": "Multiple heats were processed without purging due to the valve fault.",
+      "source_span": "Multiple heats processed without purge as a result (see shift logs).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "FCV-APS3"
+      ],
+      "timestamp": "2025-05-10T00:00:00",
+      "content": "A spare actuator for the SteelTec component FCV-APS3 was ordered via PO-IEM-2025-0228.",
+      "source_span": "Spare actuator not in stores. Placed order with regional vendor (Order PO-IEM-2025-0228).",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "FCV-APS3"
+      ],
+      "timestamp": "2025-05-15T00:00:00",
+      "content": "Maintenance on FCV-APS3 was deferred and priority downgraded from HIGH to MEDIUM because production was not stopped.",
+      "source_span": "TARGET DATE MISSED. Vendor delivery: \"2\u20133 weeks.\" Priority downgraded to MEDIUM by maintenance planner (reason: \"production not stopped\").",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "FCV-APS3"
+      ],
+      "timestamp": "2025-05-22T00:00:00",
+      "content": "A partial fix was attempted by cleaning the actuator position sensor, but the fault recurred the same day.",
+      "source_span": "Partial fix attempted \u2014 actuator position sensor cleaned, temporary improvement observed (one partial-purge heat achieved at 8 minutes). Fault recurred same day.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "INCIDENT_EVENT",
+      "asset_ids": [
+        "Caster-1"
+      ],
+      "timestamp": "2025-06-06T00:00:00",
+      "content": "An explosion occurred at Caster-1, leading to the closure of the work order for investigation.",
+      "source_span": "2025-06-06: EXPLOSION EVENT at Caster-1. WO closed as part of post-incident investigation freeze.",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "RISK_OBSERVATION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-06-08T00:00:00",
+      "content": "The failure to escalate the safety-critical purging function maintenance indicates a systemic failure in the prioritization process.",
+      "source_span": "The priority downgrade from HIGH to MEDIUM on the same day as target date missed indicates a systemic failure of the maintenance prioritisation process.",
+      "confidence": 1.0
+    }
+  ],
+  "VSP-020": [
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-06-10T00:00:00",
+      "content": "The last inspection for the Argon Purging System was completed on 10 Jun 2025.",
+      "source_span": "Last Inspection: 10 Jun 2025",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "MAINTENANCE_ACTION",
+      "asset_ids": [
+        "APS-3"
+      ],
+      "timestamp": "2025-12-10T00:00:00",
+      "content": "The next scheduled maintenance for the Argon Purging System is 10 Dec 2025.",
+      "source_span": "Next Scheduled: 10 Dec 2025",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "DEFERRED_MAINTENANCE",
+      "asset_ids": [
+        "V-102"
+      ],
+      "timestamp": "2025-05-01T00:00:00",
+      "content": "Calibration for V-102 was deferred from 01 May 2025.",
+      "source_span": "Deferred Work: V-102 calibration (deferred from 01 May 2025)",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "PROCESS_PARAMETER",
+      "asset_ids": [
+        "V-102"
+      ],
+      "timestamp": null,
+      "content": "The pressure relief valve V-102 opens when pressure exceeds 2.5 bar.",
+      "source_span": "V-102: Pressure Relief - Opens at >2.5 bar",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [
+        "P-101"
+      ],
+      "timestamp": null,
+      "content": "A high pressure alarm is triggered at 3.0 bar via sensor P-101.",
+      "source_span": "P-101: High Pressure Alarm - Triggers at 3.0 bar",
+      "confidence": 1.0
+    },
+    {
+      "fact_type": "ALARM_RESPONSE",
+      "asset_ids": [
+        "T-101"
+      ],
+      "timestamp": null,
+      "content": "A high temperature alarm is triggered at 500\u00b0C via sensor T-101.",
+      "source_span": "T-101: High Temperature Alarm - Triggers at 500\u00b0C",
+      "confidence": 1.0
+    }
+  ]
+}

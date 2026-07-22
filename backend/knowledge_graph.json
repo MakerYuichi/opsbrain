@@ -1,0 +1,5995 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Styrene Storage Tank 09",
+      "node_type": "asset",
+      "asset_type": "tank",
+      "location": "Horizon_Chemicals/Tank_Farm",
+      "id": "ST-09"
+    },
+    {
+      "label": "Styrene Storage Tank 10",
+      "node_type": "asset",
+      "asset_type": "tank",
+      "location": "Horizon_Chemicals/Tank_Farm",
+      "id": "ST-10"
+    },
+    {
+      "label": "Styrene Storage Tank 11",
+      "node_type": "asset",
+      "asset_type": "tank",
+      "location": "Horizon_Chemicals/Tank_Farm",
+      "id": "ST-11"
+    },
+    {
+      "label": "Brine Chiller Unit 01",
+      "node_type": "asset",
+      "asset_type": "chiller",
+      "location": "Horizon_Chemicals/Utilities",
+      "id": "CHR-01"
+    },
+    {
+      "label": "Temperature Sensor RTD-11 (ST-11)",
+      "node_type": "asset",
+      "asset_type": "sensor",
+      "location": "Horizon_Chemicals/Tank_Farm/ST-11",
+      "id": "RTD-11"
+    },
+    {
+      "label": "Flow Transmitter FT-11 (ST-11 Chiller Loop)",
+      "node_type": "asset",
+      "asset_type": "sensor",
+      "location": "Horizon_Chemicals/Tank_Farm/ST-11",
+      "id": "FT-11"
+    },
+    {
+      "label": "Nitrogen Blanket Valve NV-11 (ST-11)",
+      "node_type": "asset",
+      "asset_type": "valve",
+      "location": "Horizon_Chemicals/Tank_Farm/ST-11",
+      "id": "NV-11"
+    },
+    {
+      "label": "Transfer Pump P-01",
+      "node_type": "asset",
+      "asset_type": "pump",
+      "location": "Horizon_Chemicals/Tank_Farm",
+      "id": "P-01"
+    },
+    {
+      "label": "Transfer Pump P-02",
+      "node_type": "asset",
+      "asset_type": "pump",
+      "location": "Horizon_Chemicals/Tank_Farm",
+      "id": "P-02"
+    },
+    {
+      "label": "Transfer Pump P-03",
+      "node_type": "asset",
+      "asset_type": "pump",
+      "location": "Horizon_Chemicals/Tank_Farm",
+      "id": "P-03"
+    },
+    {
+      "label": "Transfer Pump P-04",
+      "node_type": "asset",
+      "asset_type": "pump",
+      "location": "Horizon_Chemicals/Tank_Farm",
+      "id": "P-04"
+    },
+    {
+      "label": "Portable Infrared Thermometer",
+      "node_type": "asset",
+      "asset_type": "instrument",
+      "location": "Horizon_Chemicals",
+      "id": "IRIR-PORTABLE"
+    },
+    {
+      "label": "Argon Purging Station 3",
+      "node_type": "asset",
+      "asset_type": "purging_station",
+      "location": "Bharat_Steel_Works/SMS-1",
+      "id": "APS-3"
+    },
+    {
+      "label": "Flow Control Valve FCV-APS3 (APS-3)",
+      "node_type": "asset",
+      "asset_type": "valve",
+      "location": "Bharat_Steel_Works/SMS-1/APS-3",
+      "id": "FCV-APS3"
+    },
+    {
+      "label": "Ladle Furnace 3",
+      "node_type": "asset",
+      "asset_type": "ladle_furnace",
+      "location": "Bharat_Steel_Works/SMS-1",
+      "id": "LF-3"
+    },
+    {
+      "label": "Ladle LD-003 (LF-3 service ladle)",
+      "node_type": "asset",
+      "asset_type": "ladle",
+      "location": "Bharat_Steel_Works/SMS-1",
+      "id": "LD-003"
+    },
+    {
+      "label": "Ladle Furnace 2",
+      "node_type": "asset",
+      "asset_type": "ladle_furnace",
+      "location": "Bharat_Steel_Works/SMS-1",
+      "id": "LF-2"
+    },
+    {
+      "label": "Coke Oven Battery 3",
+      "node_type": "asset",
+      "asset_type": "coke_oven_battery",
+      "location": "Bharat_Steel_Works/Coke_Ovens",
+      "id": "COB-3"
+    },
+    {
+      "label": "Blast Furnace 2",
+      "node_type": "asset",
+      "asset_type": "blast_furnace",
+      "location": "Bharat_Steel_Works/Blast_Furnaces",
+      "id": "BF-2"
+    },
+    {
+      "label": "Overhead Crane 07 (SMS-1)",
+      "node_type": "asset",
+      "asset_type": "crane",
+      "location": "Bharat_Steel_Works/SMS-1",
+      "id": "CRANE-07"
+    },
+    {
+      "label": "Steel Melting Shop 1",
+      "node_type": "asset",
+      "asset_type": "process_unit",
+      "location": "Bharat_Steel_Works",
+      "id": "SMS-1"
+    },
+    {
+      "label": "Continuous Casting Machine 1 / Caster-1",
+      "node_type": "asset",
+      "asset_type": "casting_machine",
+      "location": "Bharat_Steel_Works/SMS-1",
+      "id": "CCM-1"
+    },
+    {
+      "label": "Horizon Chemicals Pvt. Ltd.",
+      "node_type": "asset",
+      "asset_type": "facility",
+      "location": "Eastport_Industrial_Zone",
+      "id": "FACILITY-LGP"
+    },
+    {
+      "label": "Bharat Steel Works Ltd.",
+      "node_type": "asset",
+      "asset_type": "facility",
+      "location": "Visakhapatnam",
+      "id": "FACILITY-VSP"
+    },
+    {
+      "label": "LGP-MAINT-001",
+      "node_type": "document",
+      "doc_type": "maintenance_log",
+      "upload_date": "2026-07-21 16:37:44.356712",
+      "id": "LGP-MAINT-001"
+    },
+    {
+      "label": "LGP-MAINT-002",
+      "node_type": "document",
+      "doc_type": "maintenance_log",
+      "upload_date": "2026-07-21 16:37:44.366370",
+      "id": "LGP-MAINT-002"
+    },
+    {
+      "label": "LGP-OEM-003",
+      "node_type": "document",
+      "doc_type": "oem_manual",
+      "upload_date": "2026-07-21 16:37:44.370288",
+      "id": "LGP-OEM-003"
+    },
+    {
+      "label": "LGP-PTW-004",
+      "node_type": "document",
+      "doc_type": "permit_to_work",
+      "upload_date": "2026-07-21 16:37:44.384002",
+      "id": "LGP-PTW-004"
+    },
+    {
+      "label": "LGP-SHIFT-005",
+      "node_type": "document",
+      "doc_type": "shift_log",
+      "upload_date": "2026-07-21 16:37:44.388547",
+      "id": "LGP-SHIFT-005"
+    },
+    {
+      "label": "LGP-SHIFT-006",
+      "node_type": "document",
+      "doc_type": "shift_log",
+      "upload_date": "2026-07-21 16:37:44.392581",
+      "id": "LGP-SHIFT-006"
+    },
+    {
+      "label": "LGP-SHIFT-007",
+      "node_type": "document",
+      "doc_type": "shift_log",
+      "upload_date": "2026-07-21 16:37:44.397118",
+      "id": "LGP-SHIFT-007"
+    },
+    {
+      "label": "LGP-PERMIT-008",
+      "node_type": "document",
+      "doc_type": "permit_environmental",
+      "upload_date": "2026-07-21 16:37:44.400552",
+      "id": "LGP-PERMIT-008"
+    },
+    {
+      "label": "LGP-AUDIT-017",
+      "node_type": "document",
+      "doc_type": "audit_report",
+      "upload_date": "2026-07-21 16:37:44.402583",
+      "id": "LGP-AUDIT-017"
+    },
+    {
+      "label": "LGP-INCIDENT-019",
+      "node_type": "document",
+      "doc_type": "incident_report",
+      "upload_date": "2026-07-21 16:37:44.405293",
+      "id": "LGP-INCIDENT-019"
+    },
+    {
+      "label": "VSP-MAINT-009",
+      "node_type": "document",
+      "doc_type": "maintenance_log",
+      "upload_date": "2026-07-21 16:37:44.408166",
+      "id": "VSP-MAINT-009"
+    },
+    {
+      "label": "VSP-SHIFT-010",
+      "node_type": "document",
+      "doc_type": "shift_log",
+      "upload_date": "2026-07-21 16:37:44.410759",
+      "id": "VSP-SHIFT-010"
+    },
+    {
+      "label": "VSP-SHIFT-011",
+      "node_type": "document",
+      "doc_type": "shift_log",
+      "upload_date": "2026-07-21 16:37:44.412966",
+      "id": "VSP-SHIFT-011"
+    },
+    {
+      "label": "VSP-MAINT-012",
+      "node_type": "document",
+      "doc_type": "maintenance_log",
+      "upload_date": "2026-07-21 16:37:44.420573",
+      "id": "VSP-MAINT-012"
+    },
+    {
+      "label": "VSP-OEM-013",
+      "node_type": "document",
+      "doc_type": "oem_manual",
+      "upload_date": "2026-07-21 16:37:44.424296",
+      "id": "VSP-OEM-013"
+    },
+    {
+      "label": "VSP-PTW-014",
+      "node_type": "document",
+      "doc_type": "permit_to_work",
+      "upload_date": "2026-07-21 16:37:44.426721",
+      "id": "VSP-PTW-014"
+    },
+    {
+      "label": "VSP-SHIFT-015",
+      "node_type": "document",
+      "doc_type": "shift_log",
+      "upload_date": "2026-07-21 16:37:44.431937",
+      "id": "VSP-SHIFT-015"
+    },
+    {
+      "label": "VSP-QC-016",
+      "node_type": "document",
+      "doc_type": "qc_report",
+      "upload_date": "2026-07-21 16:37:44.435459",
+      "id": "VSP-QC-016"
+    },
+    {
+      "label": "VSP-WO-018",
+      "node_type": "document",
+      "doc_type": "work_order",
+      "upload_date": "2026-07-21 16:37:44.435650",
+      "id": "VSP-WO-018"
+    },
+    {
+      "id": "LGP-MAINT-002-F000-ST-09"
+    },
+    {
+      "id": "LGP-SHIFT-005-F005"
+    },
+    {
+      "id": "LGP-SHIFT-005-F000-ST-09"
+    },
+    {
+      "id": "LGP-PTW-004-F004-ST-09"
+    },
+    {
+      "id": "LGP-MAINT-002-F001-ST-09"
+    },
+    {
+      "id": "LGP-MAINT-002-F002-ST-09"
+    },
+    {
+      "id": "LGP-MAINT-002-F003-ST-09"
+    },
+    {
+      "id": "LGP-MAINT-002-F004"
+    },
+    {
+      "id": "LGP-MAINT-002-F005"
+    },
+    {
+      "id": "LGP-MAINT-002-F006-ST-09"
+    },
+    {
+      "id": "LGP-MAINT-002-F007-ST-09"
+    },
+    {
+      "id": "LGP-MAINT-002-F008"
+    },
+    {
+      "id": "LGP-MAINT-002-F000-ST-10"
+    },
+    {
+      "id": "LGP-SHIFT-005-F006"
+    },
+    {
+      "id": "LGP-SHIFT-005-F000-ST-10"
+    },
+    {
+      "id": "LGP-AUDIT-017-F000"
+    },
+    {
+      "id": "LGP-PTW-004-F000-ST-11"
+    },
+    {
+      "id": "LGP-MAINT-001-F000"
+    },
+    {
+      "id": "LGP-MAINT-002-F001-ST-11"
+    },
+    {
+      "id": "LGP-MAINT-002-F003-ST-11"
+    },
+    {
+      "id": "LGP-MAINT-002-F006-ST-11"
+    },
+    {
+      "id": "LGP-MAINT-002-F007-ST-11"
+    },
+    {
+      "id": "LGP-SHIFT-005-F002"
+    },
+    {
+      "id": "LGP-SHIFT-005-F003-ST-11"
+    },
+    {
+      "id": "LGP-SHIFT-005-F000-ST-11"
+    },
+    {
+      "id": "LGP-MAINT-001-F001"
+    },
+    {
+      "id": "LGP-MAINT-001-F002"
+    },
+    {
+      "id": "LGP-MAINT-001-F003"
+    },
+    {
+      "id": "LGP-MAINT-001-F004"
+    },
+    {
+      "id": "LGP-MAINT-001-F007"
+    },
+    {
+      "id": "LGP-SHIFT-006-F001"
+    },
+    {
+      "id": "LGP-SHIFT-006-F005"
+    },
+    {
+      "id": "LGP-SHIFT-006-F006"
+    },
+    {
+      "id": "LGP-SHIFT-006-F007"
+    },
+    {
+      "id": "LGP-MAINT-001-F006"
+    },
+    {
+      "id": "LGP-MAINT-001-F005"
+    },
+    {
+      "id": "LGP-SHIFT-007-F001"
+    },
+    {
+      "id": "LGP-SHIFT-007-F011"
+    },
+    {
+      "id": "LGP-SHIFT-007-F003"
+    },
+    {
+      "id": "LGP-SHIFT-007-F005"
+    },
+    {
+      "id": "LGP-MAINT-002-F002-CHR-01"
+    },
+    {
+      "id": "LGP-SHIFT-005-F004"
+    },
+    {
+      "id": "LGP-PTW-004-F004-CHR-01"
+    },
+    {
+      "id": "VSP-MAINT-009-F000"
+    },
+    {
+      "id": "VSP-SHIFT-010-F001"
+    },
+    {
+      "id": "VSP-SHIFT-010-F002"
+    },
+    {
+      "id": "VSP-SHIFT-010-F003"
+    },
+    {
+      "id": "VSP-SHIFT-010-F004"
+    },
+    {
+      "id": "VSP-SHIFT-011-F000-APS-3"
+    },
+    {
+      "id": "VSP-WO-018-F000-APS-3"
+    },
+    {
+      "id": "VSP-WO-018-F001-APS-3"
+    },
+    {
+      "id": "VSP-WO-018-F002-APS-3"
+    },
+    {
+      "id": "VSP-WO-018-F003"
+    },
+    {
+      "id": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "id": "VSP-WO-018-F004-APS-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "id": "VSP-MAINT-009-F001"
+    },
+    {
+      "id": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "id": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "id": "VSP-MAINT-009-F004"
+    },
+    {
+      "id": "VSP-MAINT-009-F005"
+    },
+    {
+      "id": "VSP-MAINT-009-F006"
+    },
+    {
+      "id": "VSP-WO-018-F005-APS-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "id": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "id": "VSP-WO-018-F009"
+    },
+    {
+      "id": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "id": "VSP-SHIFT-015-F000"
+    },
+    {
+      "id": "VSP-SHIFT-015-F001"
+    },
+    {
+      "id": "VSP-SHIFT-015-F002"
+    },
+    {
+      "id": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "id": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "id": "VSP-MAINT-009-F003-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-010-F005"
+    },
+    {
+      "id": "VSP-SHIFT-010-F007"
+    },
+    {
+      "id": "VSP-SHIFT-011-F000-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-010-F000"
+    },
+    {
+      "id": "VSP-SHIFT-011-F001-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F002-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F003-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F004-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F005-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F006-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-011-F007-LF-3"
+    },
+    {
+      "id": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-015-F003"
+    },
+    {
+      "id": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "id": "VSP-MAINT-009-F002-FCV-APS3"
+    },
+    {
+      "id": "VSP-WO-018-F000-FCV-APS3"
+    },
+    {
+      "id": "VSP-WO-018-F001-FCV-APS3"
+    },
+    {
+      "id": "VSP-WO-018-F002-FCV-APS3"
+    },
+    {
+      "id": "VSP-WO-018-F004-FCV-APS3"
+    },
+    {
+      "id": "VSP-PTW-014-F009-LD-003"
+    },
+    {
+      "id": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "id": "VSP-SHIFT-010-F006"
+    },
+    {
+      "id": "VSP-SHIFT-011-F000-CCM-1"
+    },
+    {
+      "id": "VSP-SHIFT-011-F001-CCM-1"
+    },
+    {
+      "id": "VSP-SHIFT-011-F002-CCM-1"
+    },
+    {
+      "id": "VSP-SHIFT-011-F003-CCM-1"
+    },
+    {
+      "id": "VSP-SHIFT-011-F004-CCM-1"
+    },
+    {
+      "id": "VSP-SHIFT-011-F005-CCM-1"
+    },
+    {
+      "id": "VSP-SHIFT-011-F006-CCM-1"
+    },
+    {
+      "id": "VSP-SHIFT-011-F007-CCM-1"
+    },
+    {
+      "id": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "id": "LGP-MAINT-002-F001-NV-11"
+    },
+    {
+      "id": "LGP-SHIFT-006-F002"
+    },
+    {
+      "id": "LGP-SHIFT-005-F003-FT-11"
+    },
+    {
+      "id": "LGP-SHIFT-005-F007"
+    },
+    {
+      "id": "LGP-SHIFT-006-F008"
+    },
+    {
+      "id": "LGP-SHIFT-007-F008"
+    },
+    {
+      "id": "LGP-SHIFT-005-F008"
+    },
+    {
+      "id": "LGP-SHIFT-005-F011"
+    },
+    {
+      "id": "LGP-SHIFT-006-F004"
+    },
+    {
+      "id": "LGP-SHIFT-006-F011"
+    },
+    {
+      "id": "LGP-SHIFT-006-F012"
+    },
+    {
+      "id": "LGP-SHIFT-007-F002"
+    },
+    {
+      "id": "LGP-SHIFT-007-F004"
+    },
+    {
+      "id": "LGP-SHIFT-007-F006"
+    },
+    {
+      "id": "LGP-SHIFT-007-F007"
+    },
+    {
+      "id": "VSP-PTW-014-F000-LF-3"
+    },
+    {
+      "id": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "id": "VSP-SHIFT-015-F006"
+    },
+    {
+      "id": "VSP-PTW-014-F000-LD-003"
+    },
+    {
+      "id": "VSP-PTW-014-F006-LD-003"
+    },
+    {
+      "id": "VSP-PTW-014-F006-LF-3"
+    },
+    {
+      "id": "VSP-PTW-014-F007-LD-003"
+    },
+    {
+      "id": "VSP-PTW-014-F007-LF-3"
+    },
+    {
+      "id": "VSP-PTW-014-F008-LD-003"
+    },
+    {
+      "id": "VSP-PTW-014-F008-LF-3"
+    },
+    {
+      "id": "VSP-MAINT-012-F001"
+    },
+    {
+      "id": "VSP-MAINT-012-F009"
+    },
+    {
+      "id": "VSP-MAINT-012-F010-COB-3"
+    },
+    {
+      "id": "VSP-WO-018-F005-FCV-APS3"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-MAINT-002"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-SHIFT-005"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-PTW-004"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-SHIFT-007"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-SHIFT-006"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-OEM-003"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-AUDIT-017"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001",
+      "target": "LGP-PERMIT-008"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002",
+      "target": "LGP-SHIFT-005"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002",
+      "target": "LGP-PTW-004"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002",
+      "target": "LGP-OEM-003"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-MAINT-002",
+      "target": "LGP-SHIFT-007"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-MAINT-002",
+      "target": "LGP-SHIFT-006"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002",
+      "target": "LGP-AUDIT-017"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002",
+      "target": "LGP-PERMIT-008"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-OEM-003",
+      "target": "LGP-SHIFT-005"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-OEM-003",
+      "target": "LGP-PTW-004"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-OEM-003",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-OEM-003",
+      "target": "LGP-SHIFT-007"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-OEM-003",
+      "target": "LGP-SHIFT-006"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-OEM-003",
+      "target": "LGP-AUDIT-017"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-OEM-003",
+      "target": "LGP-PERMIT-008"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-PTW-004",
+      "target": "LGP-SHIFT-005"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-PTW-004",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-PTW-004",
+      "target": "LGP-SHIFT-007"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-PTW-004",
+      "target": "LGP-SHIFT-006"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-PTW-004",
+      "target": "LGP-AUDIT-017"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-PTW-004",
+      "target": "LGP-PERMIT-008"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-SHIFT-005",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-SHIFT-005",
+      "target": "LGP-SHIFT-007"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-SHIFT-005",
+      "target": "LGP-SHIFT-006"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-SHIFT-005",
+      "target": "LGP-AUDIT-017"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-SHIFT-005",
+      "target": "LGP-PERMIT-008"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-SHIFT-006",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-SHIFT-006",
+      "target": "LGP-SHIFT-007"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006",
+      "target": "LGP-AUDIT-017"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006",
+      "target": "LGP-PERMIT-008"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-SHIFT-007",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-007",
+      "target": "LGP-AUDIT-017"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-007",
+      "target": "LGP-PERMIT-008"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-PERMIT-008",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "LGP-PERMIT-008",
+      "target": "LGP-AUDIT-017"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "LGP-AUDIT-017",
+      "target": "LGP-INCIDENT-019"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009",
+      "target": "VSP-SHIFT-010"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "VSP-MAINT-009",
+      "target": "VSP-WO-018"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009",
+      "target": "VSP-SHIFT-011"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009",
+      "target": "VSP-SHIFT-015"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.4,
+      "source": "VSP-MAINT-009",
+      "target": "VSP-OEM-013"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009",
+      "target": "VSP-PTW-014"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.4,
+      "source": "VSP-SHIFT-010",
+      "target": "VSP-WO-018"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010",
+      "target": "VSP-SHIFT-011"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010",
+      "target": "VSP-SHIFT-015"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "VSP-SHIFT-010",
+      "target": "VSP-OEM-013"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010",
+      "target": "VSP-PTW-014"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.5999999999999999,
+      "source": "VSP-SHIFT-011",
+      "target": "VSP-WO-018"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "VSP-SHIFT-011",
+      "target": "VSP-SHIFT-015"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "VSP-SHIFT-011",
+      "target": "VSP-MAINT-012"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "VSP-SHIFT-011",
+      "target": "VSP-OEM-013"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011",
+      "target": "VSP-PTW-014"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "VSP-MAINT-012",
+      "target": "VSP-QC-016"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "VSP-OEM-013",
+      "target": "VSP-SHIFT-015"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-OEM-013",
+      "target": "VSP-PTW-014"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.0,
+      "source": "VSP-OEM-013",
+      "target": "VSP-WO-018"
+    },
+    {
+      "relation": "CROSS_REFERENCE",
+      "weight": 1.2,
+      "source": "VSP-PTW-014",
+      "target": "VSP-SHIFT-015"
+    },
+    {
+      "relation": "SHARES_ASSET",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-015",
+      "target": "VSP-WO-018"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F000-ST-09",
+      "target": "LGP-SHIFT-005-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F000-ST-09",
+      "target": "LGP-SHIFT-005-F000-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F000-ST-09",
+      "target": "LGP-PTW-004-F004-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-MAINT-002-F001-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-MAINT-002-F002-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-MAINT-002-F003-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-MAINT-002-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-MAINT-002-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-MAINT-002-F006-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-MAINT-002-F007-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-MAINT-002-F008"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F005",
+      "target": "LGP-PTW-004-F004-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-MAINT-002-F001-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-MAINT-002-F002-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-MAINT-002-F003-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-MAINT-002-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-MAINT-002-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-MAINT-002-F006-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-MAINT-002-F007-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-MAINT-002-F008"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-09",
+      "target": "LGP-PTW-004-F004-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-MAINT-002-F001-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-MAINT-002-F002-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-MAINT-002-F003-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-MAINT-002-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-MAINT-002-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-MAINT-002-F006-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-MAINT-002-F007-ST-09"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-MAINT-002-F008"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-PTW-004-F004-ST-09",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F001-ST-09",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F001-ST-09",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F003-ST-09",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F003-ST-09",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F007-ST-09",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F007-ST-09",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F000-ST-10",
+      "target": "LGP-SHIFT-005-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F000-ST-10",
+      "target": "LGP-SHIFT-005-F000-ST-10"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-AUDIT-017-F000",
+      "target": "LGP-PTW-004-F000-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F000",
+      "target": "LGP-MAINT-002-F001-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F000",
+      "target": "LGP-MAINT-002-F003-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F000",
+      "target": "LGP-MAINT-002-F006-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F000",
+      "target": "LGP-MAINT-002-F007-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F000",
+      "target": "LGP-SHIFT-005-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F000",
+      "target": "LGP-SHIFT-005-F003-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F000",
+      "target": "LGP-SHIFT-005-F000-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-MAINT-001-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-MAINT-001-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-MAINT-001-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-MAINT-001-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-MAINT-001-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-005-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-005-F003-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-005-F000-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-006-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-006-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-006-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-006-F007"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F001-ST-11",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-MAINT-001-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-MAINT-001-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-MAINT-001-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-MAINT-001-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-MAINT-001-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-005-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-005-F003-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-005-F000-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-006-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-006-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-006-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-006-F007"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F003-ST-11",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-MAINT-001-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-MAINT-001-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-MAINT-001-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-MAINT-001-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-MAINT-001-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-SHIFT-005-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-SHIFT-005-F003-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-SHIFT-005-F000-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-SHIFT-006-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-SHIFT-006-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-SHIFT-006-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F006-ST-11",
+      "target": "LGP-SHIFT-006-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-MAINT-001-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-MAINT-001-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-MAINT-001-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-MAINT-001-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-MAINT-001-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-005-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-005-F003-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-005-F000-ST-11"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-006-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-006-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-006-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-006-F007"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-002-F007-ST-11",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-MAINT-001-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-MAINT-001-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-MAINT-001-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-MAINT-001-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-MAINT-001-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-SHIFT-006-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-SHIFT-006-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-SHIFT-006-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-SHIFT-006-F007"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-005-F002",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-MAINT-001-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-MAINT-001-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-MAINT-001-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-MAINT-001-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-MAINT-001-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-SHIFT-006-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-SHIFT-006-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-SHIFT-006-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-SHIFT-006-F007"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-005-F003-ST-11",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-MAINT-001-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-MAINT-001-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-MAINT-001-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-MAINT-001-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-MAINT-001-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-SHIFT-006-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-SHIFT-006-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-SHIFT-006-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F000-ST-11",
+      "target": "LGP-SHIFT-006-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F007",
+      "target": "LGP-SHIFT-006-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F007",
+      "target": "LGP-SHIFT-006-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F007",
+      "target": "LGP-SHIFT-006-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F007",
+      "target": "LGP-SHIFT-006-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F001",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F001",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F001",
+      "target": "LGP-SHIFT-007-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F001",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F001",
+      "target": "LGP-SHIFT-007-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F001",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F005",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F005",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F005",
+      "target": "LGP-SHIFT-007-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F005",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F005",
+      "target": "LGP-SHIFT-007-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F005",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F006",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F006",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F006",
+      "target": "LGP-SHIFT-007-F001"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-006-F006",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F006",
+      "target": "LGP-SHIFT-007-F003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-006-F006",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F007",
+      "target": "LGP-MAINT-001-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F007",
+      "target": "LGP-MAINT-001-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F007",
+      "target": "LGP-SHIFT-007-F001"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-006-F007",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-006-F007",
+      "target": "LGP-SHIFT-007-F003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-006-F007",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-001-F006",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-MAINT-001-F006",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F005",
+      "target": "LGP-SHIFT-007-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F005",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F005",
+      "target": "LGP-SHIFT-007-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-001-F005",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F001",
+      "target": "LGP-SHIFT-007-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F001",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F011",
+      "target": "LGP-MAINT-002-F001-NV-11"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F011",
+      "target": "LGP-SHIFT-006-F002"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F011",
+      "target": "LGP-SHIFT-005-F003-FT-11"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F011",
+      "target": "LGP-SHIFT-005-F004"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F011",
+      "target": "LGP-PTW-004-F004-CHR-01"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F011",
+      "target": "LGP-SHIFT-006-F004"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F003",
+      "target": "LGP-SHIFT-007-F005"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F005",
+      "target": "LGP-MAINT-002-F001-NV-11"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F005",
+      "target": "LGP-SHIFT-006-F002"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F005",
+      "target": "LGP-SHIFT-005-F003-FT-11"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F005",
+      "target": "LGP-SHIFT-005-F004"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F005",
+      "target": "LGP-PTW-004-F004-CHR-01"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F005",
+      "target": "LGP-SHIFT-006-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F002-CHR-01",
+      "target": "LGP-SHIFT-005-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-MAINT-002-F002-CHR-01",
+      "target": "LGP-PTW-004-F004-CHR-01"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "LGP-SHIFT-005-F004",
+      "target": "LGP-PTW-004-F004-CHR-01"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-SHIFT-010-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-SHIFT-010-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-SHIFT-010-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-SHIFT-010-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-SHIFT-011-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-WO-018-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-WO-018-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-WO-018-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-WO-018-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-WO-018-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F000",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-011-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F001",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-011-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F002",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-011-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F003",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-011-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F004",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F000-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F000-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F001-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F002-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-011-F001-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F003",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-WO-018-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-WO-018-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-011-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F004-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-MAINT-009-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-MAINT-009-F002-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-MAINT-009-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-MAINT-009-F004"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-MAINT-009-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-MAINT-009-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-WO-018-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F004",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F004",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F004",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F004",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F004",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F005",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F005",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F005",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F005",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F005",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-011-F003-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-011-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-011-F005-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F005-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-WO-018-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F006-APS-3",
+      "target": "VSP-SHIFT-011-F006-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F006-APS-3",
+      "target": "VSP-SHIFT-011-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F006-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F006-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F006-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F006-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-WO-018-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-WO-018-F007-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F009",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-015-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-015-F001"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-015-F002"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-015-F004-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-PTW-014-F000-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-PTW-014-F000-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-PTW-014-F006-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-PTW-014-F006-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-PTW-014-F007-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-PTW-014-F007-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-PTW-014-F008-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-PTW-014-F008-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-MAINT-012-F001"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-MAINT-012-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-MAINT-012-F010-COB-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-MAINT-009-F003-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-010-F005"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-010-F007"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F000-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F000-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-WO-018-F001-FCV-APS3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F001-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F001-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F002-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F002-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-WO-018-F005-FCV-APS3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F003-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F003-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F004-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F005-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F005-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F006-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F006-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F007-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-APS-3",
+      "target": "VSP-SHIFT-011-F007-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-015-F000",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F000",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F000",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F000",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-015-F001",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F001",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F001",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F001",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-015-F002",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F002",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F002",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F002",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-015-F004-APS-3",
+      "target": "VSP-WO-018-F008-APS-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F004-APS-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F004-APS-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F004-APS-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-010-F005"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-010-F007"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-011-F000-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-010-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-011-F001-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-011-F002-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-MAINT-009-F003-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-011-F000-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-011-F001-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-011-F002-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-011-F003-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-011-F004-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-011-F005-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-011-F006-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-011-F007-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F005",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-011-F000-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-011-F001-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-011-F002-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-011-F003-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-011-F004-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-011-F005-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-011-F006-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-011-F007-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-010-F007",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-LF-3",
+      "target": "VSP-SHIFT-010-F000"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-LF-3",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F000-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-011-F001-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-011-F002-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-011-F003-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-011-F004-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-011-F005-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-011-F006-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-011-F007-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F000",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-LF-3",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F001-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-LF-3",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F002-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-LF-3",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F003-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-LF-3",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F004-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-LF-3",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F005-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-LF-3",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F006-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-LF-3",
+      "target": "VSP-PTW-014-F009-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-011-F007-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-LF-3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-PTW-014-F009-LF-3",
+      "target": "VSP-SHIFT-015-F003"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-PTW-014-F009-LF-3",
+      "target": "VSP-SHIFT-015-F004-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F004-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F004-LF-3",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F004-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F002-FCV-APS3",
+      "target": "VSP-WO-018-F000-FCV-APS3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F002-FCV-APS3",
+      "target": "VSP-WO-018-F001-FCV-APS3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F002-FCV-APS3",
+      "target": "VSP-WO-018-F002-FCV-APS3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-MAINT-009-F002-FCV-APS3",
+      "target": "VSP-WO-018-F004-FCV-APS3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F001-FCV-APS3",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-PTW-014-F009-LD-003",
+      "target": "VSP-SHIFT-015-F005-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-LD-003",
+      "target": "VSP-PTW-014-F000-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-LD-003",
+      "target": "VSP-PTW-014-F000-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-LD-003",
+      "target": "VSP-PTW-014-F006-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-LD-003",
+      "target": "VSP-PTW-014-F006-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-LD-003",
+      "target": "VSP-PTW-014-F007-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-LD-003",
+      "target": "VSP-PTW-014-F007-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-LD-003",
+      "target": "VSP-PTW-014-F008-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-LD-003",
+      "target": "VSP-PTW-014-F008-LF-3"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-SHIFT-011-F000-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-SHIFT-011-F001-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-SHIFT-011-F002-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-SHIFT-011-F003-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-SHIFT-011-F004-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-SHIFT-011-F005-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-SHIFT-011-F006-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-SHIFT-011-F007-CCM-1"
+    },
+    {
+      "relation": "TEMPORAL_OVERLAP",
+      "weight": 1.2,
+      "source": "VSP-SHIFT-010-F006",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F000-CCM-1",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F001-CCM-1",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F002-CCM-1",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F003-CCM-1",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F004-CCM-1",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F005-CCM-1",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F006-CCM-1",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-011-F007-CCM-1",
+      "target": "VSP-WO-018-F007-CCM-1"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-CCM-1",
+      "target": "VSP-PTW-014-F000-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-CCM-1",
+      "target": "VSP-PTW-014-F006-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-CCM-1",
+      "target": "VSP-PTW-014-F007-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-CCM-1",
+      "target": "VSP-PTW-014-F008-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-CCM-1",
+      "target": "VSP-MAINT-012-F001"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-CCM-1",
+      "target": "VSP-MAINT-012-F009"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-CCM-1",
+      "target": "VSP-MAINT-012-F010-COB-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-WO-018-F007-CCM-1",
+      "target": "VSP-WO-018-F005-FCV-APS3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-005-F007",
+      "target": "LGP-SHIFT-006-F008"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-005-F007",
+      "target": "LGP-SHIFT-007-F008"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-006-F008",
+      "target": "LGP-SHIFT-005-F008"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-006-F008",
+      "target": "LGP-SHIFT-005-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-006-F008",
+      "target": "LGP-SHIFT-006-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-006-F008",
+      "target": "LGP-SHIFT-006-F012"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F008",
+      "target": "LGP-SHIFT-005-F008"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F008",
+      "target": "LGP-SHIFT-005-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F008",
+      "target": "LGP-SHIFT-006-F011"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F008",
+      "target": "LGP-SHIFT-006-F012"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F008",
+      "target": "LGP-SHIFT-007-F002"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F008",
+      "target": "LGP-SHIFT-007-F004"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F008",
+      "target": "LGP-SHIFT-007-F006"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "LGP-SHIFT-007-F008",
+      "target": "LGP-SHIFT-007-F007"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-PTW-014-F000-LF-3",
+      "target": "VSP-SHIFT-015-F005-CRANE-07"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-PTW-014-F000-LF-3",
+      "target": "VSP-SHIFT-015-F006"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-CRANE-07",
+      "target": "VSP-PTW-014-F000-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-CRANE-07",
+      "target": "VSP-PTW-014-F006-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-CRANE-07",
+      "target": "VSP-PTW-014-F006-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-CRANE-07",
+      "target": "VSP-PTW-014-F007-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-CRANE-07",
+      "target": "VSP-PTW-014-F007-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-CRANE-07",
+      "target": "VSP-PTW-014-F008-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F005-CRANE-07",
+      "target": "VSP-PTW-014-F008-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F006",
+      "target": "VSP-PTW-014-F000-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F006",
+      "target": "VSP-PTW-014-F006-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F006",
+      "target": "VSP-PTW-014-F006-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F006",
+      "target": "VSP-PTW-014-F007-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F006",
+      "target": "VSP-PTW-014-F007-LF-3"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F006",
+      "target": "VSP-PTW-014-F008-LD-003"
+    },
+    {
+      "relation": "CAUSAL_SEQUENCE",
+      "weight": 1.7,
+      "source": "VSP-SHIFT-015-F006",
+      "target": "VSP-PTW-014-F008-LF-3"
+    }
+  ]
+}

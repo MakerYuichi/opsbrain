@@ -1,0 +1,58 @@
+# PDF Document: Maintenance Work Order - APS-3
+# Facility: Bharat Steel Works Ltd.
+# Document Type: Maintenance Work Order
+# Work Order ID: WO-APS-3-2025-06-15
+# Date: 15 Jun 2025
+
+WORK ORDER DETAILS
+==================
+
+Asset: APS-3 (Argon Purging System)
+Location: Steel Melting Shop - Bay 3
+Priority: HIGH
+Work Type: Preventive Maintenance
+
+SCHEDULED WORK
+==============
+
+1. Valve Inspection (V-101, V-102)
+   - Check for wear and tear
+   - Verify proper operation
+   - Lubricate moving parts
+   - Estimated Time: 2 hours
+
+2. Sensor Calibration (P-101, T-101)
+   - Calibrate pressure sensor P-101
+   - Calibrate temperature sensor T-101
+   - Verify alarm setpoints
+   - Estimated Time: 1.5 hours
+
+3. System Leak Test
+   - Pressurize system to 2.0 bar
+   - Check for leaks at all connections
+   - Verify pressure holding
+   - Estimated Time: 1 hour
+
+SAFETY REQUIREMENTS
+==================
+
+- Lockout/Tagout required before work
+- PPE: Safety glasses, gloves, protective clothing
+- Argon ventilation must be operational
+- Emergency stop accessible at all times
+
+COMPLIANCE NOTES
+===============
+
+- PESO-8.3: Pressure vessel inspection due July 2025
+- ISO 45001-8.1.2: Document all near-misses
+- Previous deferred work: V-102 calibration (deferred from 01 May 2025)
+
+APPROVALS
+=========
+
+Maintenance Supervisor: _______________ Date: _______
+Safety Officer: _______________ Date: _______
+Plant Manager: _______________ Date: _______
+
+STATUS: PENDING APPROVAL
