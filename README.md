@@ -14,10 +14,10 @@ Demo grounded in two real incidents: LG Polymers Vizag styrene leak (May 2020) a
 | Layer | Tech |
 |-------|------|
 | Backend | Python 3.11 + FastAPI |
-| Storage | SQLite (SQLAlchemy async) |
-| Vector store | ChromaDB (local mode) |
+| Storage | SQLite (SQLAlchemy) |
+| Vector store | ChromaDB (local) with TF-IDF fallback |
 | Graph | NetworkX |
-| LLM | Claude API (Anthropic) |
+| LLM | OpenRouter/Groq (Gemma-4) |
 | Frontend | React 18 + TypeScript + Tailwind CSS |
 | Graph viz | react-force-graph |
 
@@ -85,10 +85,17 @@ Open http://localhost:5173
 - [x] Simulated sensor readings (4 CSV files)
 - [x] 6 hand-labelled known patterns (`data/known_patterns_index.json`)
 
-## Next Phase
-- [ ] Document ingestion pipeline (chunking, embedding, ChromaDB + SQLite)
-- [ ] Claude-powered entity extraction (asset, date, event type, risk signals)
-- [ ] Knowledge graph construction (NetworkX)
-- [ ] Time Machine API + UI
-- [ ] Pattern Breaker API + UI
-- [ ] Graph Explorer UI (react-force-graph)
+## Phase 2 Deliverables (complete)
+- [x] Document ingestion pipeline (chunking, embedding, ChromaDB + SQLite)
+- [x] Heterogeneous document support (PDF, spreadsheets, email, OCR, P&ID)
+- [x] LLM-powered entity extraction (Groq API, asset/date/event/risk signals)
+- [x] Knowledge graph construction (NetworkX)
+- [x] Hybrid RAG retrieval (vector + SQL keyword + graph expansion)
+- [x] Time Machine API + UI
+- [x] Pattern Breaker API + UI
+- [x] Graph Explorer UI (react-force-graph)
+- [x] Agentic workflows (RCA, Compliance, Maintenance agents)
+- [x] Mobile/field technician API endpoints
+- [x] Document validation framework
+- [x] Performance metrics and benchmark suite
+- [x] Compliance/regulatory mapping (Factory Act, OISD, PESO, ISO)

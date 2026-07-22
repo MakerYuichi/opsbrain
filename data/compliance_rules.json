@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "description": "Regulatory requirements mapped to observable fact types for compliance gap detection.",
+  "regulations": [
+    {
+      "reg_id": "FACTORY-ACT-41B",
+      "name": "Factories Act 1948 — Section 41B (Hazardous Process)",
+      "authority": "Factory Act",
+      "requirement": "Install and maintain automatic temperature monitoring with audible alarms on hazardous chemical storage tanks.",
+      "applies_to_types": ["tank"],
+      "required_fact_types": ["TEMPERATURE_READING", "INSTRUMENT_FAULT"],
+      "forbidden_patterns": ["INSTRUMENT_FAULT", "DEFERRED_MAINTENANCE"],
+      "evidence_keywords": ["temperature sensor", "alarm", "monitoring", "TT-"]
+    },
+    {
+      "reg_id": "OISD-118-4.2",
+      "name": "OISD-118 — Styrene Storage (Temperature Control)",
+      "authority": "OISD",
+      "requirement": "Maintain styrene tank temperature below 20°C with continuous chilled brine circulation during shutdown.",
+      "applies_to_types": ["tank"],
+      "required_fact_types": ["TEMPERATURE_READING", "MAINTENANCE_ACTION"],
+      "forbidden_patterns": ["TEMPERATURE_READING", "DEFERRED_MAINTENANCE"],
+      "evidence_keywords": ["temperature", "chiller", "brine", "shutdown", "inhibitor"]
+    },
+    {
+      "reg_id": "PESO-8.3",
+      "name": "PESO — Pressure Vessel Inspection (Ladle/Refractory)",
+      "authority": "PESO",
+      "requirement": "Ladle refractory lining must be inspected per schedule; argon purging mandatory before each heat.",
+      "applies_to_types": ["ladle_furnace", "purging_station", "ladle"],
+      "required_fact_types": ["MAINTENANCE_ACTION", "PROCESS_PARAMETER"],
+      "forbidden_patterns": ["DEFERRED_MAINTENANCE", "SHIFT_OBSERVATION"],
+      "evidence_keywords": ["refractory", "purging", "argon", "ladle", "inspection"]
+    },
+    {
+      "reg_id": "ENV-NGT-EC",
+      "name": "Environmental Clearance — Valid Permit Required",
+      "authority": "Environmental",
+      "requirement": "Operations must hold valid environmental clearance; expired permits require immediate cessation or renewal.",
+      "applies_to_types": ["tank", "plant"],
+      "required_fact_types": ["PERMIT_STATUS"],
+      "forbidden_patterns": ["PERMIT_STATUS", "SAFETY_VIOLATION"],
+      "evidence_keywords": ["environmental clearance", "permit", "expired", "valid until"]
+    },
+    {
+      "reg_id": "ISO45001-8.1.2",
+      "name": "ISO 45001 — Hierarchy of Controls (Near-Miss Escalation)",
+      "authority": "Quality/Safety",
+      "requirement": "Near-miss observations and alarm responses must be escalated and tracked to closure within 48 hours.",
+      "applies_to_types": ["tank", "ladle_furnace", "purging_station", "sensor"],
+      "required_fact_types": ["ALARM_RESPONSE", "SHIFT_OBSERVATION"],
+      "forbidden_patterns": ["ALARM_RESPONSE", "SHIFT_OBSERVATION"],
+      "evidence_keywords": ["alarm", "near-miss", "no action", "verbal", "not escalated"]
+    },
+    {
+      "reg_id": "BIS-STEEL-QC",
+      "name": "BIS Quality Standards — Raw Material Traceability",
+      "authority": "Quality",
+      "requirement": "Coke and hot-metal quality deviations must trigger upstream investigation within 24 hours.",
+      "applies_to_types": ["coke_oven", "blast_furnace"],
+      "required_fact_types": ["QUALITY_READING", "RISK_OBSERVATION"],
+      "forbidden_patterns": ["QUALITY_READING", "RISK_OBSERVATION"],
+      "evidence_keywords": ["coke", "quality", "hot metal", "deviation", "upstream"]
+    }
+  ]
+}
